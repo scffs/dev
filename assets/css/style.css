@@ -51,7 +51,7 @@ h2{
     color: #714EA0;
 }
 img{
-    border-radius: 40%;
+    border-radius: 20%;
 }
 .header-menu{
     display: flex;
@@ -78,7 +78,7 @@ img{
     text-align: center;
     width: content-box;
     border-radius: 15px;
-    border: 1px solid #714EA0;
+    border: 1px solid #fe3f3f;
     padding: 5px;
 }
 .main-menu li:first-child{
@@ -93,12 +93,12 @@ img{
 .red{
     color: #fe3f3f;
 }
-    .info-menu{
-        box-shadow: 0 0 10px rgba(113, 78, 160,0.5);
+.info-menu{
+    box-shadow: 0 1px 5px rgba(113, 78, 160,0.5);
     /*box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.8);*/
     /*border:2px solid #131314;*/
     background: #161617;
-    border-radius: 10px;
+    border-radius: 20px;
     padding: 10px;
     color:#969696;
 }
