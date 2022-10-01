@@ -1,5 +1,6 @@
 *{margin: 0;padding: 0;}
 body{
+    min-width: 570px;
     margin: 0;padding: 0;
     font-family: 'Montserrat', sans-serif;
     background-color: #19191A;
@@ -22,27 +23,28 @@ h2{
 .container{
     padding: 15px 20px;
     max-width: 1200px;
-    min-width: 555px;
     margin: 0 auto;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
     gap: 20px;
 }
 .flex{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.wrapper{
-    display: flex;
     justify-content: center;
-    flex-wrap: wrap;
+    align-items: center;
     gap: 20px;
+    flex-wrap: wrap;
 }
+/*.wrapper{*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    flex-wrap: wrap;*/
+/*    gap: 20px;*/
+/*}*/
 /*header*/
 .header{
     height: 75px;
-
     box-shadow: 0 2px 0 2px rgba(51, 49, 49,0.5);
 }
 .logo{
@@ -125,11 +127,15 @@ sup a{
 }
 
 /*error.html*/
-.error{
+.error {
     color: #fe3f3f;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    height: calc(100vh - 115px);
+    min-height: 300px;
 }
-.error h2{color:#969696}
+.container1.center{
+
+}
