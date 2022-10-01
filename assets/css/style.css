@@ -15,7 +15,8 @@ ul{
     padding: 0;
     list-style-type: none;
 }
-a{
+a, a:visited{
+    color: #714EA0;
     text-decoration: none;
 }
 h2{
@@ -23,7 +24,8 @@ h2{
     color: #714EA0;
 }
 .header{
-    height: 100px;
+    height: 90px;
+    box-shadow: 0 2px 0px 2px rgba(51, 49, 49,0.5);
 }
 .container{
     padding: 15px 20px;
@@ -70,7 +72,7 @@ img{
     color: #969696;
 }
 .main{
-    margin-top: 50px;
+    margin-top: 100px;
 }
 .main-menu{
     margin-top:5px;
@@ -115,7 +117,7 @@ sup a{
 
 /*footer*/
 .footer{
-    height: 50px;
+    height: 100%;
 }
 .content{
     min-height: calc(100vh - 90px);
