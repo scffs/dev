@@ -1,3 +1,3 @@
-# Something similar to a portfolio
+# My web site
 > It's just a portfolio site 
 
