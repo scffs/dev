@@ -117,3 +117,19 @@ sup a{
     height: calc(100vh - 115px);
     min-height: 300px;
 }
+
+/*adaptive*/
+@media(max-width: 565px){
+    body{
+        font-size: 15px;
+    }
+}
+
+@media(max-width: 465px){
+    body{
+        font-size: 15px;
+    }
+    .main-logo-img{
+        height: 300px;
+    }
+}
