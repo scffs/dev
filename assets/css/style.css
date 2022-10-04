@@ -132,4 +132,18 @@ sup a{
     .main-logo-img{
         height: 300px;
     }
+    .logo{
+        display: none;
+    }
+}
+@media (max-width: 400px) {
+    .login{
+        display: none;
+    }
+    .header{
+        height: 50px;
+    }
+}
+@media(max-width: 300px){
+
 }
