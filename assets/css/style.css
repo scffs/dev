@@ -137,6 +137,9 @@ sup a{
     }
 }
 @media (max-width: 400px) {
+    .container{
+        justify-content: center;
+    }
     .login{
         display: none;
     }
