@@ -58,7 +58,7 @@ img{
     gap: 20px;
     flex-wrap: wrap;
 }
-.logo{
+.header-logo{
     display: flex;
     align-items: center;
     gap: 10px;
@@ -91,7 +91,6 @@ img{
 }
 .main-menu-item{
     text-align: center;
-    width: content-box;
     border-radius: 15px;
     border: 1px solid #fe3f3f;
     padding: 5px;
@@ -109,10 +108,17 @@ img{
 .info-menu-item{
     padding: 15px 10px;
 }
+.main-logo-img{
+    height:350px;
+}
+.login-img{
+    width: 40px;
+}
 sup a{
     font-size: smaller;
     font-style: italic;
 }
+
 /*skills*/
 section h2{
     margin: 0 0 10px 0;
@@ -165,6 +171,7 @@ section h2{
     flex-direction: column;
     gap:0 20px;
     font-size: smaller;
+    margin: 0 0 20px 0;
 }
 /*error.html*/
 .error {
