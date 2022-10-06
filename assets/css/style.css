@@ -3,7 +3,7 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    animation: opac 0.7s;
+    animation: opac 0.5s;
     min-width: 300px;
     margin: 0;padding: 0;
     font-family: 'Montserrat', sans-serif;
@@ -18,7 +18,7 @@ a, a:visited{
     color: #714EA0;
     text-decoration: none;
 }
-a:hover{
+a:hover, a:focus{
     color: #9f60fc;
 }
 h2{
@@ -48,6 +48,8 @@ img{
 }
 /*header*/
 .header{
+    animation: ride 0.4s ease-in;
+    /*animation: trans 0.4s;*/
     height: 75px;
     border-bottom: 1px solid #333131;
 }
@@ -81,6 +83,8 @@ img{
     margin-top: 100px;
 }
 .profile-card{
+    animation: ride 0.5s ease-in;
+    /*animation: trans 0.8s ease-in;*/
     align-self: center;
 }
 .card-name{
@@ -112,6 +116,8 @@ img{
     padding: 15px 10px;
 }
 .main-logo-img{
+    animation: ride 0.4s ease-in;
+    /*animation: scale 0.8s ease-in;*/
     height:350px;
 }
 .login-img{
@@ -127,6 +133,8 @@ section h2{
     margin: 0 0 10px 0;
 }
 .skills-inner{
+    animation: ride 0.4s ease-in;
+    /*animation: trans 0.4s;*/
     max-width: 1200px;
     margin: 100px auto 0;
     padding: 0 20px;
@@ -228,7 +236,7 @@ section h2{
 }
 
 @keyframes opac {
-    from{
+    0%{
         opacity: 0;
     }
     30%{
@@ -237,7 +245,45 @@ section h2{
     60%{
         opacity: 0.6;
     }
-    to{
+    100%{
         opacity: 1;
+    }
+}
+
+@keyframes trans {
+    0%{
+        transform: rotate(0deg);
+    }
+    30%{
+        transform: rotate(180deg);
+    }
+    70%{
+        transform: rotate(270deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+@keyframes scale {
+    0%{
+        transform: scale(-1.5);
+    }
+    30%{
+        transform: scale(1);
+    }
+    70%{
+        transform: scale(-1.5);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+@keyframes ride {
+    0%{
+        transform: translateY(-100%);
+    }
+    100%{
+        transform: translateY(0);
     }
 }
