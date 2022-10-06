@@ -1,4 +1,5 @@
 *{margin: 0;padding: 0;}
+html{scroll-behavior: smooth;}
 body{
     min-width: 200px;
     margin: 0;padding: 0;
@@ -14,7 +15,11 @@ a, a:visited{
     color: #714EA0;
     text-decoration: none;
 }
+a:hover{
+    color: #9f60fc;
+}
 h2{
+    font-size: 30px;
     margin:0;
 }
 img{
@@ -25,9 +30,7 @@ img{
 .blue{color: #00bebe;}
 .pink{color: #714EA0;}
 .red{color: #fe3f3f;}
-.content{
-    min-height: calc(100vh - 100px);
-}
+
 
 /* container / wrapper*/
 .container{
@@ -45,8 +48,15 @@ img{
     height: 75px;
     border-bottom: 1px solid #333131;
 }
-header > .container{
+.header-inner{
+    padding: 15px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
     justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
 }
 .logo{
     display: flex;
@@ -115,6 +125,12 @@ section h2{
 .skills-text{
     text-align: center;
 }
+.skill-img{
+}
+
+.skills-img{
+    width: 144px;
+}
 
 .skills-text__item{
     font-size: 50px;
@@ -134,6 +150,7 @@ section h2{
 }
 .skills-box{
     margin: 20px auto;
+    padding: 10px;
     border-radius: 40px;
     max-width: 800px;
     box-shadow: 0 1px 5px rgba(113, 78, 160,0.5);
@@ -143,6 +160,8 @@ section h2{
 }
 /*footer*/
 .footer {
+    display: flex;
+    align-items: center;
     flex-direction: column;
     gap:0 20px;
     font-size: smaller;
@@ -175,10 +194,20 @@ section h2{
     .logo{
         display: none;
     }
+    .skills-img{
+        width: 100px;
+    }
+    .skills-item svg{
+        width: 100px;
+    }
+    .header-inner{
+        justify-content: center;
+        gap: 30px;
+    }
 }
 @media (max-width: 400px) {
-    .container{
-        justify-content: center;
+    .main-logo-img{
+        height: 250px;
     }
     .login{
         display: none;
