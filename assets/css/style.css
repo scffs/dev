@@ -110,6 +110,7 @@ section h2{
 .skills-inner{
     max-width: 1200px;
     margin: 100px auto 0;
+    padding: 0 20px;
 }
 .skills-text{
     text-align: center;
@@ -134,7 +135,6 @@ section h2{
 .skills-box{
     margin: 20px auto;
     border-radius: 40px;
-    padding: 10px 0;
     max-width: 800px;
     box-shadow: 0 1px 5px rgba(113, 78, 160,0.5);
 }
