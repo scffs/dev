@@ -7,7 +7,8 @@ body{
     min-width: 300px;
     margin: 0;padding: 0;
     font-family: 'Montserrat', sans-serif;
-    background-color: #19191A;
+    background: #ffffff;
+    /*background-color: #19191A;*/
     font-size: 20px;
 }
 ul{
@@ -49,19 +50,11 @@ img{
 /*header*/
 .header{
     animation: ride 0.4s ease-in;
-    /*animation: trans 0.4s;*/
     height: 75px;
-    border-bottom: 1px solid #333131;
+    border-bottom: 1px solid rgba(113, 78, 160,0.5);
 }
-.header-inner{
-    padding: 15px 20px;
-    max-width: 1200px;
-    margin: 0 auto;
-    display: flex;
+header .container{
     justify-content: space-between;
-    align-items: center;
-    gap: 20px;
-    flex-wrap: wrap;
 }
 .header-logo{
     display: flex;
@@ -84,7 +77,6 @@ img{
 }
 .profile-card{
     animation: ride 0.5s ease-in;
-    /*animation: trans 0.8s ease-in;*/
     align-self: center;
 }
 .card-name{
@@ -107,17 +99,17 @@ img{
 }
 .info-menu{
     box-shadow: 0 1px 5px rgba(113, 78, 160,0.5);
-    background: #161617;
+    /*background: #161617;*/
+    background: #ececec;
     border-radius: 20px;
     padding: 10px;
-    color:#969696;
+    color: #858484;
 }
 .info-menu-item{
     padding: 15px 10px;
 }
 .main-logo-img{
     animation: ride 0.4s ease-in;
-    /*animation: scale 0.8s ease-in;*/
     height:350px;
 }
 .login-img{
@@ -134,7 +126,6 @@ section h2{
 }
 .skills-inner{
     animation: ride 0.4s ease-in;
-    /*animation: trans 0.4s;*/
     max-width: 1200px;
     margin: 100px auto 0;
     padding: 0 20px;
@@ -218,7 +209,7 @@ section h2{
     .skills-item svg{
         width: 100px;
     }
-    .header-inner{
+    header .container{
         justify-content: center;
         gap: 30px;
     }
