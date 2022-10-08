@@ -7,11 +7,11 @@ body{
     min-width: 300px;
     margin: 0;padding: 0;
     font-family: 'Montserrat', sans-serif;
-    /*background-color: #19191A;*/
     font-size: 20px;
 }
 body.dark-theme{
-    background-color: #1f1f1f;
+    background-color: #19191A;
+    transition: background-color ease-in-out 0.4s;
 }
 
 ul{
