@@ -50,7 +50,7 @@ img{
 /*header*/
 .header{
     animation: ride 0.4s ease-in;
-    height: 75px;
+    height: 73px;
     border-bottom: 1px solid rgba(113, 78, 160,0.5);
 }
 header .container{
