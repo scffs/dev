@@ -10,8 +10,8 @@ let headerText = `
                     <li class="menu-item"><a class="header-link" href="error.html">Contacts</a></li>
                 </ul>
             </nav>
-            <div class="login">
-                <a href="../../error.html"><img src="assets/img/password.png" class="login-img" alt="log in"></a>
+            <div class="theme">
+                <button class="btn-theme" id="btn-theme" type="button">Theme</button>
             </div>
         </div>`;
 
