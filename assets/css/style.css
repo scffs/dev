@@ -83,6 +83,9 @@ header .container{
 .dark-theme h5{
     color: #161617 !important;
 }
+.dark-theme .header-menu{
+    color:#969696;
+}
 .light-theme{
     background-color: #fff;
     transition: 0.4s ease-in-out background-color;
@@ -243,9 +246,9 @@ section h2{
     .header{
         height: 46px;
     }
-    .theme{
-        display: none;
-    }
+    /*.theme{*/
+    /*    display: none;*/
+    /*}*/
 }
 
 @keyframes opac {
