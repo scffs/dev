@@ -61,11 +61,6 @@ header .container{
     height: calc(100% - 30px);
     justify-content: space-between;
 }
-.header-logo{
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
 .text-logo{
     color: #714EA0;
 }
