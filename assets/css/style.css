@@ -80,11 +80,13 @@ header .container{
     transition: 0.4s ease-in-out background-color;
     background-color: #161617 !important;
 }
+.dark-theme h5{
+    color: #161617 !important;
+}
 .light-theme{
     background-color: #fff;
     transition: 0.4s ease-in-out background-color;
 }
-
 .header-menu{
     display: flex;
     gap: 20px;
