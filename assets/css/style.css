@@ -23,7 +23,7 @@ a, a:visited{
     text-decoration: none;
 }
 a:hover, a:focus, .btn-theme:hover{
-    color: #9f60fc;
+    color: #a574fc;
 }
 h2{
     font-size: 30px;
@@ -41,9 +41,9 @@ img{
 
 /* container / wrapper*/
 .container{
-    padding: 15px 20px;
     max-width: 1200px;
     margin: 0 auto;
+    padding: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -53,23 +53,23 @@ img{
 /*header*/
 .header{
     animation: ride 0.4s ease-in;
-    border-bottom: 1px solid rgba(113, 78, 160,0.5);
-    height: 70px;
-
+    /*border-bottom: 1px solid rgba(113, 78, 160,0.5);*/
+    height: 92px;
 }
 header .container{
-    height: calc(100% - 30px);
     justify-content: space-between;
 }
 .text-logo{
     color: #714EA0;
 }
 .btn-theme{
-    color: #714EA0;
+    color: white;
     border: none;
-    background-color: transparent;
     font-size: inherit;
     font-family: 'Montserrat', sans-serif;
+    background-color: #6500ff;
+    padding: 10px;
+    border-radius: 50px;
 }
 .dark-theme{
     transition: 0.4s ease-in-out background-color;
@@ -86,6 +86,9 @@ header .container{
 .header-menu{
     display: flex;
     gap: 20px;
+    padding: 15px 0;
+    border-bottom: 1px solid rgba(113, 78, 160,0.5);
+    border-top: 1px solid rgba(113, 78, 160,0.5);
 }
 .header-link{
     color:#714EA0;
