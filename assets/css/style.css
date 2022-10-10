@@ -24,7 +24,7 @@ a, a:visited{
     color: #714EA0;
     text-decoration: none;
 }
-a:hover, a:focus, .btn-theme:hover{
+a:hover, .btn-theme:hover{
     color: #a574fc;
 }
 h2{
