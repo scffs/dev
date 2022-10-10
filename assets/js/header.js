@@ -1,14 +1,13 @@
 let headerText = `
          <div class="container">
             <div class="header-logo">
-<!--                <a class="text-logo" href="index.html#main-info">Scoffs</a>-->
-                <a href="../../index.html"><img  src="../../assets/img/logo.png" alt="Logo" width="30"/> </a>
+                <a href="index.html"><img  src="assets/img/logo.png" alt="Logo" width="30"/> </a>
             </div>
             <nav class="header-nav">
                 <ul class="header-menu">
-                    <li class="menu-item"><a class="header-link" href="../../index.html#skills">Skills</a></li>
-                    <li class="menu-item"><a class="header-link" href="../../error.html">About me</a></li>
-                    <li class="menu-item"><a class="header-link" href="../../error.html">Contacts</a></li>
+                    <li class="menu-item"><a class="header-link" href="index.html#skills">Skills</a></li>
+                    <li class="menu-item"><a class="header-link" href="error.html">About me</a></li>
+                    <li class="menu-item"><a class="header-link" href="error.html">Contacts</a></li>
                 </ul>
             </nav>
             <div class="theme">

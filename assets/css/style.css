@@ -211,7 +211,7 @@ section h2{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    /*height: calc(100vh - 225px);*/
+    height: calc(100vh - 230px);
     min-height: 300px;
 }
 
