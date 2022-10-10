@@ -3,4 +3,5 @@
 ####
 Site updates are duplicated [here](https://vk.com/sc0ffs)
 
-![image](https://user-images.githubusercontent.com/67464545/194342395-aadeeeec-448a-4d98-a0a3-7dbfe9e80ff8.png)
+![image](https://user-images.githubusercontent.com/67464545/194798303-3eca8006-a5da-43d5-bf58-75d261bb137e.png)
+
