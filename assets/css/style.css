@@ -41,6 +41,13 @@ img{
 
 
 /* container / wrapper*/
+.wrapper{
+    display: flex;
+    flex-direction: column;
+}
+.content{
+    flex: 1 1 auto;
+}
 .container{
     max-width: 1200px;
     margin: 0 auto;
@@ -204,7 +211,7 @@ section h2{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: calc(100vh - 220px);
+    /*height: calc(100vh - 225px);*/
     min-height: 300px;
 }
 
