@@ -236,6 +236,11 @@ section h2{
         gap: 30px;
     }
 }
+@media (max-width: 420px) {
+    .error h2:nth-child(2){
+        font-size: 20px;
+    }
+}
 @media (max-width: 400px) {
     .main-logo-img{
         height: 250px;
