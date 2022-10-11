@@ -12,7 +12,7 @@ function setFooter() {
     let footer =  document.createElement("footer");
     footer.classList.add("footer");
     footer.innerHTML = footerText ;
-    document.body.insertAdjacentElement('afterend', footer);
+    document.body.insertAdjacentElement('beforeend', footer);
 }
 console.log("FOOTER DONE");
 setFooter();
