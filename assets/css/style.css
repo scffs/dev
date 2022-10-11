@@ -235,9 +235,6 @@ section h2{
     .main-logo-img{
         height: 300px;
     }
-    .header-logo{
-        display: none;
-    }
     .skills-img{
         width: 100px !important;
     }
@@ -245,8 +242,16 @@ section h2{
         width: 100px !important;
     }
     header .container{
+        gap: 15px;
+    }
+}
+@media(max-width: 410px){
+    .header .container{
         justify-content: center;
-        gap: 30px;
+        gap: 10px 20px;
+    }
+    .theme{
+        justify-self: center;
     }
 }
 @media (max-width: 420px) {
@@ -266,6 +271,14 @@ section h2{
     }
     .skills-list__item svg{
         width: 80px !important;
+    }
+}
+@media(max-width: 315px){
+    .header-logo-img{
+        width: 25px;
+    }
+    .header-link{
+        font-size: 12px;
     }
 }
 
