@@ -248,10 +248,10 @@ section h2{
 @media(max-width: 410px){
     .header .container{
         justify-content: center;
-        gap: 10px 20px;
+        gap: 10px 40px;
     }
     .theme{
-        justify-self: center;
+        margin: 0 auto;
     }
 }
 @media (max-width: 420px) {
@@ -273,15 +273,14 @@ section h2{
         width: 80px !important;
     }
 }
-@media(max-width: 315px){
-    .header-logo-img{
-        width: 25px;
-    }
+@media (max-width: 335px) {
     .header-link{
         font-size: 12px;
     }
+    .header-logo-img{
+        width: 20px;
+    }
 }
-
 @keyframes opac {
     0%{
         opacity: 0;
