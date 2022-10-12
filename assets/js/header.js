@@ -5,7 +5,7 @@ let headerText = `
             </div>
             <nav class="header-nav">
                 <ul class="header-menu">
-                    <li class="menu-item"><a class="header-link" href="index.html#skills">Skills</a></li>
+                    <li class="menu-item"><a class="header-link" href="#skills">Skills</a></li>
                     <li class="menu-item"><a class="header-link" href="error.html">About me</a></li>
                     <li class="menu-item"><a class="header-link" href="error.html">Contacts</a></li>
                 </ul>
