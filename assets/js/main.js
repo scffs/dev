@@ -9,8 +9,8 @@ themeButton.onclick = function() {
     card.classList.toggle('dark-theme');
     card.classList.toggle('light-theme');
     if (body.classList.contains('light-theme')){
-        document.getElementById("Git").src="assets/img/GH.png";
+        document.querySelector(".git").src="assets/img/GH.png";
     }else{
-        document.getElementById("Git").src="assets/img/GitHub-Mark-Light-120px-plus.png";
+        document.querySelector(".git").src="assets/img/GitHub-Mark-Light-120px-plus.png";
     }
 };
