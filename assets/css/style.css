@@ -41,22 +41,10 @@ img{
 
 
 /* container / wrapper*/
-.wrapper{
-    display: flex;
-    flex-direction: column;
-}
-.content{
-    flex: 1 1 auto;
-}
+
 .container{
     max-width: 1200px;
     margin: 0 auto;
-    padding: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    flex-wrap: wrap;
 }
 /*header*/
 .header{
@@ -64,8 +52,13 @@ img{
     /*border-bottom: 1px solid rgba(113, 78, 160,0.5);*/
     height: 92px;
 }
-header .container{
+.header-content{
+    display: flex;
+    padding: 20px;
     justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap; 
 }
 .text-logo{
     color: #714EA0;
@@ -104,6 +97,14 @@ header .container{
 /*main section*/
 .main{
     margin-top: 80px;
+    padding: 20px;
+}
+.main-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
 }
 .profile-card{
     animation: ride 0.5s ease-in;
@@ -196,13 +197,18 @@ section h2{
     border-radius: 0;
 }
 /*footer*/
-.footer {
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px 0;
+}
+.footer-content {
     display: flex;
     align-items: center;
-    flex-direction: column;
+    justify-content: center;
     gap:0 20px;
     font-size: smaller;
-    margin: 0 0 20px 0;
 }
 /*error.html*/
 .error {
@@ -246,7 +252,7 @@ section h2{
     }
 }
 @media(max-width: 410px){
-    .header .container{
+    .header-content{
         justify-content: center;
         gap: 10px 40px;
     }
