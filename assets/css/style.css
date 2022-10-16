@@ -44,8 +44,7 @@ img{
 .red{color: #fe3f3f;}
 
 
-/* container / wrapper*/
-
+/* container */
 .container{
     max-width: 1200px;
     margin: 0 auto;
@@ -53,7 +52,6 @@ img{
 /*header*/
 .header{
     animation: ride 0.4s ease-in;
-    /*border-bottom: 1px solid rgba(113, 78, 160,0.5);*/
     height: 92px;
 }
 .header-content{
@@ -74,7 +72,7 @@ img{
     font-family: 'Montserrat', sans-serif;
     background-color: #6500ff;
     padding: 10px;
-    border-radius: 50px;
+    border-radius: 10px;
 }
 .dark-theme{
     transition: 0.4s ease-in-out background-color;
@@ -83,6 +81,12 @@ img{
 }
 .dark-theme h5{
     color: #161617 !important;
+}
+.dark-theme .modal-auth{
+    background-color: #161617;
+}
+.dark-theme .modal-title{
+    color: #969696;
 }
 .light-theme{
     background-color: #fff;
@@ -234,8 +238,6 @@ section h2{
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.8);
-    transform: translateX(-50%) translateY(-50%);
-    transition: transform ease-in-out .4s;
 }
 .modal-container-close {
     display: none;
@@ -249,6 +251,7 @@ input{
     margin: auto;
     padding: 40px;
     background-color: #ffffff;
+    animation: ride ease-in-out .5s;
 }
 .modal-auth {
     border-radius: 30px;
@@ -260,13 +263,15 @@ input{
     top: 7px;
     right: 10px;
     width: 35px;
-    height: 44px;
-    background-color: #ffffff;
+    /*height: 30px;*/
     border: none;
-    background-image: url("../img/cross.svg");
     background-repeat: no-repeat;
     background-position: center;
     cursor: pointer;
+}
+.dark-theme .control-mark::before,
+.dark-theme .control-mark::after{
+    background-color: #969696;
 }
 .modal-title {
     margin: 0 0 24px 0;
@@ -302,6 +307,24 @@ input{
 .auth-form-register {
     color: #000000;
 }
+
+
+.control-mark::before,
+.control-mark::after{
+    position: absolute;
+    top: 5px;
+    left: 20px;
+    width: 2px;
+    height: 20px;
+    background-color: #242424;
+    content: "";
+}
+.control-mark::before {
+    transform: rotate(45deg);
+}
+.control-mark::after {
+    transform: rotate(-45deg);
+}
 /*adaptive*/
 @media(max-width: 565px){
     body{
@@ -331,6 +354,15 @@ input{
     header .container{
         gap: 15px;
     }
+    .modal-auth{
+        width: 250px;
+    }
+    .modal-title{
+        font-size: 20px;
+    }
+    .auth-form-button{
+        width: 80px;
+    }
 }
 @media(max-width: 410px){
     .header-content{
@@ -358,6 +390,15 @@ input{
     }
     .skills-list__item svg{
         width: 80px !important;
+    }
+}
+@media (max-width: 350px) {
+    .modal-auth{
+        width: 200px;
+    }
+    .auth-form-button{
+        width: 60px;
+        font-size: 12px;
     }
 }
 @media (max-width: 335px) {
