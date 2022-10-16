@@ -53,5 +53,33 @@
         <i>2022 &copy; by Scoffs</i>
     </div>
 </footer>
+<div class="modal-container modal-container-close">
+    <div class="modal modal-auth">
+        <button class="modal-close-button">
+            <span class="control-mark visually-hidden"></span>
+        </button>
+        <section class="modal-content">
+            <h2 class="modal-title">Личный кабинет</h2>
+            <form class="auth-form" action="index.html" method="get">
+                <p class="field-group">
+                    <label class="visually-hidden" for="auth-login">Логин</label>
+                    <input class="auth-form-field field" type="text" id="auth-login" name="auth-login" placeholder="Логин">
+                </p>
+                <p class="field-group">
+                    <label class="visually-hidden" for="auth-password">Пароль</label>
+                    <input class="auth-form-field field" type="password" id="auth-password" name="auth-password" placeholder="Пароль">
+                </p>
+                <!--                    <p class="field-group auth-form-user-options">-->
+                <!--                        -->
+                <!--                        <a class="auth-form-recovery" href="#">Забыл пароль</a>-->
+                <!--                    </p>-->
+                <p class="auth-form-user-options">
+                    <button class="btn auth-form-button" type="submit">Войти</button>
+                    <a class="button auth-form-register" href="#">Забыл пароль</a>
+                </p>
+            </form>
+        </section>
+    </div>
+</div>  
 </body>
 </html>

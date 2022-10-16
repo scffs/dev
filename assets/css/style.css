@@ -280,6 +280,9 @@ input{
 .dark-theme .control-mark::after{
     background-color: #969696;
 }
+.dark-theme .modal-container a{
+    color: #969696;
+}
 .modal-title {
     margin: 0 0 24px 0;
     font-size: 32px;
