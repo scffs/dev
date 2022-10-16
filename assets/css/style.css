@@ -1,4 +1,9 @@
-*{margin: 0;padding: 0;}
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+}
 html{
     scroll-behavior: smooth;
 }
@@ -14,7 +19,6 @@ body.dark-theme{
     background-color: #19191A;
     transition: background-color ease-in-out 0.4s;
 }
-
 ul{
     padding: 0;
     list-style-type: none;
@@ -23,7 +27,7 @@ a, a:visited{
     color: #714EA0;
     text-decoration: none;
 }
-a:hover, .btn-theme:hover{
+a:hover, .btn:hover{
     color: #a574fc;
 }
 h2{
@@ -63,7 +67,7 @@ img{
 .text-logo{
     color: #714EA0;
 }
-.btn-theme{
+.btn{
     color: white;
     border: none;
     font-size: inherit;
@@ -221,7 +225,84 @@ section h2{
     height: calc(100vh - 230px);
     min-height: 300px;
 }
+/* modal window */
+.modal-container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.modal-container-close {
+    /*display: none;*/
+}
+.modal {
+    position: relative;
+    margin: auto;
+    padding: 40px;
+    background-color: #ffffff;
+}
+.modal-auth {
+    width: 360px;
+}
+.modal-close-button {
+    position: absolute;
+    padding: 0;
+    top: 0;
+    right: 0;
+    width: 56px;
+    height: 44px;
+    background-color: #ffffff;
+    border: none;
+    background-image: url("../img/cross.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+.modal-title {
+    margin: 0 0 24px 0;
+    font-size: 32px;
+    line-height: 35px;
+    font-weight: bold;
+    color: #000000;
+}
+.auth-form .field-group {
+    margin: 0 0 16px 0;
+}
+.auth-form-user-options {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 400;
+}
 
+.auth-form-user-options .control-label {
+    font-weight: 400;
+}
+
+.auth-form .field {
+    width: 328px;
+}
+.auth-form-recovery {
+    line-height: 22px;
+    color: #000000;
+}
+
+.auth-form-button {
+    width: 360px;
+    margin-bottom: 16px;
+}
+
+.auth-form .button + .button {
+    margin: 0;
+}
+
+.auth-form-register {
+    width: 360px;
+    color: #000000;
+    background-color: #ffffff;
+}
 /*adaptive*/
 @media(max-width: 565px){
     body{
