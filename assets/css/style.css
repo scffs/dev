@@ -433,6 +433,9 @@ input{
         background-color: #fff;
         transition: all .3s ease-in-out;
     }
+    .dark-theme .header-nav {
+        background-color: #242424;
+    }
     .header-nav.active{
         transform: translate(0,0);
     }
