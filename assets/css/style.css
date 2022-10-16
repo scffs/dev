@@ -388,7 +388,7 @@ input{
         position: absolute;
         height: 10%;
         width: 100%;
-        transition: all .3s ease-in-out;
+        /*transition: all .3s ease-in-out;*/
         background-color: #111;
     }
     .dark-theme .menu-icon::after,
@@ -398,7 +398,7 @@ input{
         position: absolute;
         height: 10%;
         width: 100%;
-        transition: all .3s ease-in-out;
+        /*transition: all .3s ease-in-out;*/
         background-color: #969696;
     }
     .menu-icon::after,
@@ -428,19 +428,19 @@ input{
     }
     .header-nav{
         position: fixed;
-        transform: translate(0,-100%);
+        opacity: 0;
         top: 0;
         left: 0;
         width: 100%;
         height: 100%;
         background-color: #fff;
-        transition: all .3s ease-in-out;
+        transition: opacity .3s ease-in-out;
     }
     .dark-theme .header-nav {
         background-color: #242424;
     }
     .header-nav.active{
-        transform: translate(0,0);
+        opacity: 1;
     }
     .header-menu{
         flex-direction: column;
