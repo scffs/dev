@@ -7,6 +7,9 @@ let closeButton = document.querySelector('.modal-close-button');
 let modalContainer = document.querySelector('.modal-container');
 // открытие модального окна
 let openButton = document.querySelector('.btn-log-in');
+// бургер меню
+let burgerMenu = document.querySelector('.menu-icon');
+let headerLink = document.querySelector('.header-link');
 
 themeButton.onclick = function() {
     page.classList.toggle('dark-theme');
@@ -24,4 +27,18 @@ closeButton.onclick = function (){
 }
 openButton.onclick = function (){
     modalContainer.classList.remove('modal-container-close');
+}
+
+if(burgerMenu){
+    let headerMenu = document.querySelector('.header-nav');
+    burgerMenu.addEventListener("click", function (){
+        burgerMenu.classList.toggle('active');
+        headerMenu.classList.toggle('active');
+        page.classList.toggle('lock');
+    });
+    headerLink.addEventListener("click", function (){
+        burgerMenu.classList.remove('active');
+        headerMenu.classList.remove('active');
+        page.classList.remove('lock');
+    });
 }
