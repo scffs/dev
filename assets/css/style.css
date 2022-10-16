@@ -270,11 +270,15 @@ input{
     top: 7px;
     right: 10px;
     width: 35px;
-    /*height: 30px;*/
+    height: 30px;
     border: none;
     background-repeat: no-repeat;
     background-position: center;
     cursor: pointer;
+    background-color: white;
+}
+.dark-theme .modal-close-button{
+    background-color: #161617;
 }
 .dark-theme .control-mark::before,
 .dark-theme .control-mark::after{
@@ -306,10 +310,6 @@ input{
     border-radius: 10px;
     padding: 10px 0 10px 10px;
     background-color: rgba(133, 132, 132, 0.2);
-}
-.auth-form-recovery {
-    line-height: 22px;
-    color: #000000;
 }
 .auth-form-button {
     width: 150px;
