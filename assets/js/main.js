@@ -23,12 +23,12 @@ themeButton.onclick = function() {
     }
 };
 closeButton.onclick = function (){
-    modalContainer.classList.add('modal-container-close');
-    page.classList.remove('lock');
+    modalContainer.classList.toggle('modal-container-close');
+    page.classList.toggle('lock');
 }
 openButton.onclick = function (){
-    modalContainer.classList.remove('modal-container-close');
-    page.classList.add('lock');
+    modalContainer.classList.toggle('modal-container-close');
+    page.classList.toggle('lock');
 }
 
 if(burgerMenu){

@@ -388,7 +388,6 @@ input{
         position: absolute;
         height: 10%;
         width: 100%;
-        /*transition: all .3s ease-in-out;*/
         background-color: #111;
     }
     .dark-theme .menu-icon::after,
@@ -398,7 +397,6 @@ input{
         position: absolute;
         height: 10%;
         width: 100%;
-        /*transition: all .3s ease-in-out;*/
         background-color: #969696;
     }
     .menu-icon::after,
@@ -409,7 +407,7 @@ input{
         bottom: 0;
     }
     .menu-icon::before{
-        top:0;
+        top: 0;
     }
     .menu-icon span{
         top:50%;
@@ -441,6 +439,7 @@ input{
     }
     .header-nav.active{
         opacity: 1;
+        z-index: 3;
     }
     .header-menu{
         flex-direction: column;
@@ -454,7 +453,7 @@ input{
     }
     .theme,
     .btn-log-in{
-        z-index: 5;
+        z-index: 2;
     }
 }
 
