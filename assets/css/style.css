@@ -45,7 +45,7 @@ img{
 .blue{color: #00bebe;}
 .pink{color: #714EA0;}
 .red{color: #fe3f3f;}
-
+.green{color: #009c00}
 
 /* container */
 .container{
@@ -143,6 +143,9 @@ img{
 .main-menu li:first-child{
     border-color: #00bebe;
 }
+.main-menu li:first-child + li{
+    border-color: #009c00;
+}
 .info-menu{
     box-shadow: 0 1px 5px rgba(113, 78, 160,0.5);
     background: #ececec;
@@ -195,6 +198,7 @@ section h2{
 .skills-list{
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 20px;
     flex-wrap: wrap;
 }
@@ -205,9 +209,7 @@ section h2{
     max-width: 800px;
     box-shadow: 0 1px 5px rgba(113, 78, 160,0.5);
 }
-.skills-list__item{
-    display: flex;
-}
+
 .skills-list__item  img{
     border-radius: 0;
 }
