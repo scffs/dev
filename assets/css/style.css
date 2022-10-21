@@ -81,20 +81,6 @@ img{
     border-radius: 10px;
     cursor: pointer;
 }
-.dark-theme{
-    transition: 0.4s ease-in-out background-color;
-    background-color: #161617 !important;
-    color:#969696 !important;
-}
-.dark-theme h5{
-    color: #161617 !important;
-}
-.dark-theme .modal-auth{
-    background-color: #161617;
-}
-.dark-theme .modal-title{
-    color: #969696;
-}
 .light-theme{
     background-color: #fff;
     transition: 0.4s ease-in-out background-color;
@@ -279,16 +265,6 @@ input{
     cursor: pointer;
     background-color: white;
 }
-.dark-theme .modal-close-button{
-    background-color: #161617;
-}
-.dark-theme .control-mark::before,
-.dark-theme .control-mark::after{
-    background-color: #969696;
-}
-.dark-theme .modal-container a{
-    color: #969696;
-}
 .modal-title {
     margin: 0 0 24px 0;
     font-size: 32px;
@@ -334,6 +310,32 @@ input{
 }
 .control-mark::after {
     transform: rotate(-45deg);
+}
+
+/* DARK THEME */
+.dark-theme .modal-close-button{
+    background-color: #161617;
+}
+.dark-theme .control-mark::before,
+.dark-theme .control-mark::after{
+    background-color: #969696;
+}
+.dark-theme .modal-container a{
+    color: #969696;
+}
+.dark-theme{
+    transition: 0.4s ease-in-out background-color;
+    background-color: #161617 !important;
+    color:#969696 !important;
+}
+.dark-theme h5{
+    color: #161617 !important;
+}
+.dark-theme .modal-auth{
+    background-color: #161617;
+}
+.dark-theme .modal-title{
+    color: #969696;
 }
 /*adaptive*/
 @media(max-width: 565px){
