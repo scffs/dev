@@ -1,5 +1,5 @@
 let page = document.querySelector('.page');
-let card = document.querySelector('.info-menu');
+let card = document.querySelector('.profile-info--menu');
 let themeButton = document.querySelector('.btn-theme');
 let body = document.querySelector('.light-theme');
 // закрытие модального окна
@@ -8,7 +8,7 @@ let modalContainer = document.querySelector('.modal-container');
 // открытие модального окна
 let openButton = document.querySelector('.btn-log-in');
 // бургер меню
-let burgerMenu = document.querySelector('.menu-icon');
+let burgerMenu = document.querySelector('.header-menu-icon');
 let headerLink = document.querySelector('.header-link');
 
 themeButton.onclick = function() {

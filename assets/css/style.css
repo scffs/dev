@@ -26,11 +26,21 @@ ul{
     padding: 0;
     list-style-type: none;
 }
+.btn:hover{
+    color: #6500ff;
+    background-color: #fff;
+}
+.dark-theme .btn:hover{
+    background-color: #19191A;
+}
+a{
+    transition: .2s ease-in-out all;
+}
 a, a:visited{
-    color: #714EA0;
+    color: #6500ff;
     text-decoration: none;
 }
-a:hover, .btn:hover{
+a:hover{
     color: #a574fc;
 }
 h2{
@@ -43,7 +53,7 @@ img{
 /*span*/
 .gray{color: #969696;}
 .blue{color: #00bebe;}
-.pink{color: #714EA0;}
+.pink{color: #6500ff;}
 .red{color: #fe3f3f;}
 .green{color: #009c00;}
 
@@ -53,7 +63,7 @@ img{
     margin: 0 auto;
 }
 /*header*/
-.menu-icon{
+.header-menu-icon{
     display: none;
 }
 .header{
@@ -69,31 +79,32 @@ img{
     flex-wrap: wrap; 
 }
 .text-logo{
-    color: #714EA0;
+    color: #6500ff;
 }
 .btn{
+    transition: .3s ease-in-out all;
     color: white;
-    border: none;
     font-size: inherit;
     font-family: 'Montserrat', sans-serif;
     background-color: #6500ff;
     padding: 10px;
     border-radius: 10px;
     cursor: pointer;
+    border: 2px solid #6500ff;
 }
 .light-theme{
     background-color: #fff;
     transition: 0.4s ease-in-out background-color;
 }
-.header-menu{
+.header-nav--menu{
     display: flex;
     gap: 20px;
     padding: 15px 0;
-    border-bottom: 1px solid rgba(113, 78, 160,1);
-    border-top: 1px solid rgba(113, 78, 160,1);
+    border-bottom: 1px solid #6500ff;
+    border-top: 1px solid #6500ff;
 }
 .header-link{
-    color:#714EA0;
+    color: #6500ff;
 }
 /*main section*/
 .main{
@@ -111,40 +122,40 @@ img{
     animation: ride 0.5s ease-in;
     align-self: center;
 }
-.card-name{
-    color: #714EA0;
+.profile-card--name{
+    color: #6500ff;
 }
-.main-menu{
+.profile-card--list{
     padding: 5px 0;
     margin-bottom: 10px;
     display: flex;
     gap: 5px;
 }
-.profile-inner{
+.profile-card--inner{
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
 }
-.main-menu__item{
+.profile-card--item{
     text-align: center;
-    border-radius: 15px;
+    border-radius: 12px;
     border: 1px solid #fe3f3f;
     padding: 5px;
 }
-.main-menu li:first-child{
+.menu--item-1{
     border-color: #00bebe;
 }
-.main-menu li:first-child + li{
-    border-color: #009c00;
+.menu--item-2    {
+    border-color: #009c00 ;
 }
-.info-menu{
+.profile-info--menu{
     box-shadow: 0 1px 5px rgba(113, 78, 160,0.5);
     background: #ececec;
     border-radius: 20px;
     padding: 10px;
     color: #858484;
 }
-.info-menu__item{
+.info-menu--item{
     padding: 15px 10px;
 }
 .main-logo-img{
@@ -163,21 +174,24 @@ sup a{
 section h2{
     margin: 0 0 10px 0;
 }
-.skills-inner{
+.skills{
     animation: ride 0.4s ease-in;
     max-width: 1200px;
     margin: 100px auto 0;
     padding: 0 20px;
 }
-.skills-text{
+.skills-title{
     text-align: center;
+    font-size: 50px;
 }
 .skills-img{
     width: 144px;
 }
-
-.skills-text__item{
-    font-size: 50px;
+.skills-text{
+    color:  #6500ff;;
+}
+.skills-title--sub{
+    color: #fe3f3f;
 }
 .skills-text-2{
     text-align: center;
@@ -201,7 +215,7 @@ section h2{
     box-shadow: 0 1px 5px rgba(113, 78, 160,0.5);
 }
 
-.skills-list__item  img{
+.skills-list--item  img{
     border-radius: 0;
 }
 /*footer*/
@@ -226,7 +240,7 @@ section h2{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: calc(100vh - 230px);
+    height: calc(100vh - 320px);
     min-height: 300px;
 }
 /* modal window */
@@ -350,7 +364,7 @@ input{
     .skills-img{
         width: 120px !important;
     }
-    .skills-list__item svg{
+    .skills-list--item svg{
         width: 120px !important;
     }
 }
@@ -365,7 +379,7 @@ input{
     .skills-img{
         width: 100px !important;
     }
-    .skills-list__item svg{
+    .skills-list--item svg{
         width: 100px !important;
     }
     header .container{
@@ -381,8 +395,8 @@ input{
         width: 80px;
     }
 }
-@media(max-width: 450px){
-    .menu-icon{
+@media(max-width: 456px){
+    .header-menu-icon{
         z-index: 5;
         display: block;
         position: relative;
@@ -390,47 +404,47 @@ input{
         height: 18px;
         cursor: pointer;
     }
-    .menu-icon::after,
-    .menu-icon::before,
-    .menu-icon span{
+    .header-menu-icon::after,
+    .header-menu-icon::before,
+    .header-menu-icon span{
         left:0;
         position: absolute;
         height: 10%;
         width: 100%;
         background-color: #111;
     }
-    .dark-theme .menu-icon::after,
-    .dark-theme .menu-icon::before,
-    .dark-theme .menu-icon span{
+    .dark-theme .header-menu-icon::after,
+    .dark-theme .header-menu-icon::before,
+    .dark-theme .header-menu-icon span{
         left:0;
         position: absolute;
         height: 10%;
         width: 100%;
         background-color: #969696;
     }
-    .menu-icon::after,
-    .menu-icon::before{
+    .header-menu-icon::after,
+    .header-menu-icon::before{
         content: '';
     }
-    .menu-icon::after{
+    .header-menu-icon::after{
         bottom: 0;
     }
-    .menu-icon::before{
+    .header-menu-icon::before{
         top: 0;
     }
-    .menu-icon span{
+    .header-menu-icon span{
         top:50%;
         transform: scale(1) translate(0, -50%);
     }
-    .menu-icon.active::before{
+    .header-menu-icon.active::before{
         top:50%;
         transform: rotate(-45deg);
     }
-    .menu-icon.active::after{
+    .header-menu-icon.active::after{
         top: 50%;
         transform: rotate(45deg);
     }
-    .menu-icon.active span{
+    .header-menu-icon.active span{
         transform: scale(0) translate(0, -50%);
     }
     .header-nav{
@@ -442,6 +456,7 @@ input{
         height: 100%;
         background-color: #fff;
         transition: opacity .3s ease-in-out;
+        z-index: -1;
     }
     .dark-theme .header-nav {
         background-color: #242424;
@@ -450,7 +465,7 @@ input{
         opacity: 1;
         z-index: 3;
     }
-    .header-menu{
+    .header-nav--menu{
         flex-direction: column;
         border: none;
         align-items: center;
@@ -460,12 +475,10 @@ input{
     .header-link{
         font-size: 32px;
     }
-    .theme,
-    .btn-log-in{
+    .btn{
         z-index: 2;
     }
 }
-
 @media(max-width: 410px){
     .header-content{
         gap: 10px 40px;
@@ -486,7 +499,7 @@ input{
     .skills-img{
         width: 80px !important;
     }
-    .skills-list__item svg{
+    .skills-list--item svg{
         width: 80px !important;
     }
 }
