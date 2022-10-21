@@ -490,6 +490,9 @@ input{
     }
 }
 @media (max-width: 400px) {
+    .skills-title--sub{
+        font-size: 15px;
+    }
     .main-logo-img{
         height: 250px;
     }
