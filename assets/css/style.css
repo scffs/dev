@@ -89,8 +89,8 @@ img{
     display: flex;
     gap: 20px;
     padding: 15px 0;
-    border-bottom: 1px solid rgba(113, 78, 160,0.5);
-    border-top: 1px solid rgba(113, 78, 160,0.5);
+    border-bottom: 1px solid rgba(113, 78, 160,1);
+    border-top: 1px solid rgba(113, 78, 160,1);
 }
 .header-link{
     color:#714EA0;
@@ -119,6 +119,11 @@ img{
     margin-bottom: 10px;
     display: flex;
     gap: 5px;
+}
+.profile-inner{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
 }
 .main-menu__item{
     text-align: center;
@@ -521,20 +526,6 @@ input{
     }
     100%{
         transform: rotate(360deg);
-    }
-}
-@keyframes scale {
-    0%{
-        transform: scale(-1.5);
-    }
-    30%{
-        transform: scale(1);
-    }
-    70%{
-        transform: scale(-1.5);
-    }
-    100%{
-        transform: scale(1);
     }
 }
 
