@@ -98,13 +98,13 @@ img{
 }
 .header-nav--menu{
     display: flex;
-    gap: 20px;
     padding: 15px 0;
     border-bottom: 1px solid #6500ff;
     border-top: 1px solid #6500ff;
 }
 .header-link{
     color: #6500ff;
+    padding: 15px;
 }
 /*main section*/
 .main{
@@ -149,7 +149,7 @@ img{
     color: #858484;
 }
 .info-menu--item{
-    padding: 5px 10px;
+    padding: 10px;
 }
 .main-logo-img{
     animation: ride 0.4s ease-in;
@@ -338,8 +338,13 @@ input{
     color: #969696;
 }
 /*adaptive*/
+@media(max-width: 605px){
+    .header-link{
+        font-size: 15px;
+    }
+}
 @media(max-width: 565px){
-    body{
+    .header{
         font-size: 15px;
     }
     .skills-img{
@@ -349,7 +354,12 @@ input{
         width: 120px !important;
     }
 }
-
+@media(max-width: 505px){
+    .header-link{
+        font-size: 13px;
+        padding: 15px 10px;
+    }
+}
 @media(max-width: 465px){
     body{
         font-size: 15px;
@@ -451,7 +461,6 @@ input{
         border: none;
         align-items: center;
         margin-top: 80px;
-        gap:40px 0;
     }
     .header-link{
         font-size: 32px;
