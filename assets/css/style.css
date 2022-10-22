@@ -120,7 +120,6 @@ img{
 }
 .profile-card{
     animation: ride 0.5s ease-in;
-    align-self: center;
 }
 .profile-card--name{
     color: #6500ff;
@@ -131,13 +130,7 @@ img{
     display: flex;
     gap: 5px;
 }
-.profile-card--inner{
-    display: flex;
-    gap: 20px;
-    flex-wrap: wrap;
-}
 .profile-card--item{
-    text-align: center;
     border-radius: 12px;
     border: 1px solid #fe3f3f;
     padding: 5px;
@@ -149,7 +142,7 @@ img{
     border-color: #009c00 ;
 }
 .profile-info--menu{
-    box-shadow: 0 1px 5px rgba(113, 78, 160,0.5);
+    box-shadow: 0 1px 5px rgba(113, 78, 160,0.8);
     background: #ececec;
     border-radius: 20px;
     padding: 10px;
@@ -188,17 +181,13 @@ section h2{
     width: 144px;
 }
 .skills-text{
-    color:  #6500ff;;
+    color:  #6500ff;
+    text-align: center;
 }
 .skills-title--sub{
     color: #fe3f3f;
-}
-.skills-text-2{
     text-align: center;
-}
-.skills-text-3{
-    text-align: center;
-    line-height: 50px;
+    line-height: 40px;
 }
 .skills-list{
     display: flex;
@@ -212,7 +201,7 @@ section h2{
     padding: 10px;
     border-radius: 40px;
     max-width: 800px;
-    box-shadow: 0 1px 5px rgba(113, 78, 160,0.5);
+    box-shadow: 0 1px 5px rgba(113, 78, 160,0.8);
 }
 
 .skills-list--item  img{
