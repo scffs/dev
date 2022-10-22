@@ -465,6 +465,9 @@ input{
     .header-link{
         font-size: 32px;
     }
+    .header-nav--menu{
+        gap:40px;
+    }
     .btn{
         z-index: 2;
     }
