@@ -372,7 +372,15 @@ input {
 @media (max-width: 505px) {
   .header-link {
     font-size: 13px;
-    padding: 15px 10px;
+    padding: 15px 5px;
+  }
+  .header-nav--menu {
+    gap: 10px;
+  }
+}
+@media (max-width: 470px) {
+  .header-link {
+    font-size: 10px;
   }
 }
 @media (max-width: 465px) {
