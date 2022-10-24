@@ -51,9 +51,6 @@ h2 {
   font-size: 30px;
   margin: 0;
 }
-img {
-  border-radius: 20%;
-}
 .gray {
   color: #969696;
 }
@@ -129,6 +126,11 @@ img {
 .profile-card {
   animation: ride 0.5s ease-in;
 }
+.main-logo-img {
+  animation: ride 0.4s ease-in;
+  height: 350px;
+  border-radius: 40px;
+}
 .profile-card--name {
   color: #6500ff;
 }
@@ -139,7 +141,7 @@ img {
   gap: 5px;
 }
 .profile-skills--item {
-  border-radius: 12px;
+  border-radius: 10px;
   border: 1px solid #fe3f3f;
   padding: 5px;
 }
@@ -158,10 +160,6 @@ img {
 }
 .projects-menu--item {
   padding: 10px;
-}
-.main-logo-img {
-  animation: ride 0.4s ease-in;
-  height: 350px;
 }
 .login-img {
   width: 40px;
@@ -202,22 +200,6 @@ img {
   border-radius: 40px;
   max-width: 800px;
   box-shadow: 0 1px 5px rgba(113, 78, 160, 0.8);
-}
-.skills-list--item img {
-  border-radius: 0;
-}
-.achievements-slider--container {
-  overflow: hidden;
-}
-.achievements-slider {
-  display: flex;
-  flex-flow: column wrap;
-  gap: 20px;
-  align-items: center;
-}
-.achievements-slider-img {
-  height: 500px;
-  border-radius: 5px;
 }
 .footer {
   display: flex;
@@ -359,9 +341,6 @@ input {
   }
 }
 @media (max-width: 565px) {
-  .page {
-    font-size: 15px;
-  }
   .skills-img {
     width: 120px !important;
   }
@@ -370,6 +349,12 @@ input {
   }
 }
 @media (max-width: 505px) {
+  .page {
+    font-size: 15px;
+  }
+  .main-logo-img {
+    height: 300px;
+  }
   .header-link {
     font-size: 13px;
     padding: 15px 5px;
@@ -384,9 +369,6 @@ input {
   }
 }
 @media (max-width: 465px) {
-  .main-logo-img {
-    height: 300px;
-  }
   .skills-img {
     width: 100px !important;
   }
@@ -492,14 +474,14 @@ input {
     z-index: 2;
   }
 }
-@media (max-width: 410px) {
-  .header-content {
-    gap: 10px 40px;
-  }
-}
 @media (max-width: 420px) {
   .error h2:nth-child(2) {
     font-size: 20px;
+  }
+}
+@media (max-width: 410px) {
+  .header-content {
+    gap: 10px 40px;
   }
 }
 @media (max-width: 400px) {
@@ -508,9 +490,6 @@ input {
   }
   .main-logo-img {
     height: 250px;
-  }
-  .header {
-    height: 46px;
   }
   .skills-img {
     width: 80px !important;
