@@ -1,12 +1,12 @@
-@import "footer";
-@import "header";
 @import "vars";
+@import "header";
 @import "author";
-@import "adaptive";
-@import "modal";
 @import "skills";
+@import "modal";
+@import "adaptive";
 @import "keyframes";
 @import "dark-theme";
+@import "footer";
 *,
 *::before,
 *::after {
@@ -29,6 +29,8 @@ body {
 }
 .visually-hidden {
   visibility: hidden;
+  width: 1px;
+  height: 1px;
 }
 .container {
   max-width: 1200px;
