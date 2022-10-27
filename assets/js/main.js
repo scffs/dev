@@ -1,15 +1,14 @@
-let page = document.querySelector('.page');
-// let card = document.querySelector('.profile-info--menu');
-let themeButton = document.querySelector('.btn-theme');
-let body = document.querySelector('.light-theme');
+const page = document.querySelector('.page');
+const themeButton = document.querySelector('.btn-theme');
+const body = document.querySelector('.light-theme');
 // закрытие модального окна
-let closeButton = document.querySelector('.modal-close-button');
-let modalContainer = document.querySelector('.modal-container');
+const closeButton = document.querySelector('.modal-close-button');
+const modalContainer = document.querySelector('.modal-container');
 // открытие модального окна
-let openButton = document.querySelector('.btn-log-in');
+const openButton = document.querySelector('.btn-log-in');
 // бургер меню
-let burgerMenu = document.querySelector('.header-menu-icon');
-let headerLink = document.querySelector('.header-link');
+const burgerMenu = document.querySelector('.header-menu-icon');
+const headerLink = document.querySelector('.header-link');
 
 themeButton.onclick = function() {
     page.classList.toggle('dark-theme');
@@ -30,7 +29,7 @@ openButton.onclick = function (){
 }
 
 if(burgerMenu){
-    let headerMenu = document.querySelector('.header-nav');
+    const headerMenu = document.querySelector('.header-nav');
     burgerMenu.addEventListener("click", function (){
         burgerMenu.classList.toggle('active');
         headerMenu.classList.toggle('active');
