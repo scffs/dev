@@ -659,11 +659,22 @@ input {
 }
 /* line 16, style.less */
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/style\.less}line{font-family:\0000316}}
+.error {
+  color: #fe3f3f;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: calc(-15vh);
+  min-height: 300px;
+}
+/* line 25, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/style\.less}line{font-family:\0000325}}
 html {
   scroll-behavior: smooth;
 }
-/* line 19, style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/style\.less}line{font-family:\0000319}}
+/* line 28, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/style\.less}line{font-family:\0000328}}
 body {
   animation: opac 0.5s;
   min-width: 300px;
@@ -672,80 +683,80 @@ body {
   font-family: 'Montserrat', sans-serif;
   font-size: 20px;
 }
-/* line 26, style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/style\.less}line{font-family:\0000326}}
+/* line 35, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/style\.less}line{font-family:\0000335}}
 body.lock {
   overflow: hidden;
 }
-/* line 30, style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/style\.less}line{font-family:\0000330}}
+/* line 39, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/style\.less}line{font-family:\0000339}}
 .visually-hidden {
   visibility: hidden;
   width: 1px;
   height: 1px;
 }
-/* line 35, style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/style\.less}line{font-family:\0000335}}
+/* line 44, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/style\.less}line{font-family:\0000344}}
 .container {
   max-width: 1200px;
   margin: 0 auto;
 }
-/* line 39, style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/style\.less}line{font-family:\0000339}}
+/* line 48, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/style\.less}line{font-family:\0000348}}
 ul {
   padding: 0;
   list-style-type: none;
 }
-/* line 43, style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/style\.less}line{font-family:\0000343}}
+/* line 52, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/style\.less}line{font-family:\0000352}}
 a {
   transition: 0.2s ease-in-out all;
   color: #6500ff;
   text-decoration: none;
 }
-/* line 47, style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/style\.less}line{font-family:\0000347}}
+/* line 56, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/style\.less}line{font-family:\0000356}}
 a:hover {
   color: #29026f;
 }
-/* line 51, style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/style\.less}line{font-family:\0000351}}
+/* line 60, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/style\.less}line{font-family:\0000360}}
 h2 {
   font-size: 30px;
   margin: 0;
 }
-/* line 55, style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/style\.less}line{font-family:\0000355}}
+/* line 64, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/style\.less}line{font-family:\0000364}}
 .gray {
   color: #969696;
 }
-/* line 58, style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/style\.less}line{font-family:\0000358}}
+/* line 67, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/style\.less}line{font-family:\0000367}}
 .blue {
   color: #00bebe;
 }
-/* line 61, style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/style\.less}line{font-family:\0000361}}
-.pink {
-  color: #6500ff;
-}
-/* line 64, style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/style\.less}line{font-family:\0000364}}
-.red {
-  color: #fe3f3f;
-}
-/* line 67, style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/style\.less}line{font-family:\0000367}}
-.green {
-  color: #009c00;
-}
 /* line 70, style.less */
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/style\.less}line{font-family:\0000370}}
-.text-logo {
+.pink {
   color: #6500ff;
 }
 /* line 73, style.less */
 @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/style\.less}line{font-family:\0000373}}
+.red {
+  color: #fe3f3f;
+}
+/* line 76, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/style\.less}line{font-family:\0000376}}
+.green {
+  color: #009c00;
+}
+/* line 79, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/style\.less}line{font-family:\0000379}}
+.text-logo {
+  color: #6500ff;
+}
+/* line 82, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/style\.less}line{font-family:\0000382}}
 .btn {
   transition: 0.3s ease-in-out all;
   color: white;
@@ -757,20 +768,20 @@ h2 {
   cursor: pointer;
   border: 2px solid #6500ff;
 }
-/* line 83, style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/style\.less}line{font-family:\0000383}}
+/* line 92, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/style\.less}line{font-family:\0000392}}
 .btn:hover {
   color: #6500ff;
   background-color: #fff;
 }
-/* line 88, style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/style\.less}line{font-family:\0000388}}
+/* line 97, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/style\.less}line{font-family:\0000397}}
 .light-theme {
   background-color: #fff;
   transition: 0.4s ease-in-out background-color;
 }
-/* line 92, style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/style\.less}line{font-family:\0000392}}
+/* line 101, style.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/style\.less}line{font-family:\00003101}}
 .main {
   padding: 20px;
 }
