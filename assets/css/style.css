@@ -1,16 +1,10 @@
-/* line 3, header.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/header\.less}line{font-family:\000033}}
 .header-menu-icon {
   display: none;
 }
-/* line 6, header.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/header\.less}line{font-family:\000036}}
 .header {
   animation: ride 0.4s ease-in;
   height: 92px;
 }
-/* line 10, header.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/header\.less}line{font-family:\0000310}}
 .header-content {
   display: flex;
   padding: 20px;
@@ -19,22 +13,17 @@
   gap: 20px;
   flex-wrap: wrap;
 }
-/* line 18, header.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/header\.less}line{font-family:\0000318}}
 .header-nav--menu {
   display: flex;
   gap: 20px;
   padding: 15px 0;
+  margin: 0;
   border-bottom: 1px solid #6500ff;
   border-top: 1px solid #6500ff;
 }
-/* line 25, header.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/header\.less}line{font-family:\0000325}}
 .header-link {
   color: #6500ff;
 }
-/* line 3, author.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/author\.less}line{font-family:\000033}}
 .main-content {
   display: flex;
   justify-content: center;
@@ -43,50 +32,34 @@
   flex-wrap: wrap;
   padding-top: 80px;
 }
-/* line 11, author.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/author\.less}line{font-family:\0000311}}
 .profile-card {
   animation: ride 0.5s ease-in;
 }
-/* line 14, author.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/author\.less}line{font-family:\0000314}}
 .main-logo-img {
   animation: ride 0.4s ease-in;
   height: 350px;
   border-radius: 40px;
 }
-/* line 19, author.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/author\.less}line{font-family:\0000319}}
 .profile-card--name {
   color: #6500ff;
 }
-/* line 22, author.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/author\.less}line{font-family:\0000322}}
 .profile-skills--menu {
   padding: 5px 0;
   margin-bottom: 10px;
   display: flex;
   gap: 5px;
 }
-/* line 28, author.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/author\.less}line{font-family:\0000328}}
 .profile-skills--item {
   border-radius: 10px;
   border: 1px solid #fe3f3f;
   padding: 5px;
 }
-/* line 33, author.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/author\.less}line{font-family:\0000333}}
 .menu--item-1 {
   border-color: #00bebe;
 }
-/* line 36, author.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/author\.less}line{font-family:\0000336}}
 .menu--item-2 {
   border-color: #009c00;
 }
-/* line 39, author.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/author\.less}line{font-family:\0000339}}
 .profile-projects--menu {
   box-shadow: 0 1px 5px rgba(113, 78, 160, 0.8);
   background: #ececec;
@@ -94,50 +67,34 @@
   padding: 10px;
   color: #858484;
 }
-/* line 46, author.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/author\.less}line{font-family:\0000346}}
 .projects-menu--item {
   padding: 10px;
 }
-/* line 49, author.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/author\.less}line{font-family:\0000349}}
 .login-img {
   width: 40px;
 }
-/* line 3, skills.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/skills\.less}line{font-family:\000033}}
 .skills {
   animation: ride 0.4s ease-in;
   padding: 0 20px;
 }
-/* line 7, skills.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/skills\.less}line{font-family:\000037}}
 .title {
   text-align: center;
   font-size: 40px;
   color: #969696;
-  padding: 100px 0 30px;
+  margin: 100px 0 30px;
 }
-/* line 13, skills.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/skills\.less}line{font-family:\0000313}}
 .skills-img {
   width: 144px;
 }
-/* line 16, skills.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/skills\.less}line{font-family:\0000316}}
-.skills-text {
+.sub-text {
   color: #6500ff;
   text-align: center;
 }
-/* line 20, skills.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/skills\.less}line{font-family:\0000320}}
 .skills-title--sub {
   color: #fe3f3f;
   text-align: center;
   line-height: 40px;
 }
-/* line 25, skills.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/skills\.less}line{font-family:\0000325}}
 .skills-list {
   display: flex;
   justify-content: center;
@@ -145,8 +102,6 @@
   gap: 20px;
   flex-wrap: wrap;
 }
-/* line 32, skills.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/skills\.less}line{font-family:\0000332}}
 .skills-box {
   margin: 20px auto;
   padding: 10px;
@@ -154,206 +109,53 @@
   max-width: 800px;
   box-shadow: 0 1px 5px rgba(113, 78, 160, 0.8);
 }
-/* line 3, modal.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/modal\.less}line{font-family:\000033}}
-.modal {
-  position: relative;
-  margin: auto;
-  padding: 40px;
-  background-color: #ffffff;
-  animation: ride ease-in-out 0.5s;
-}
-/* line 10, modal.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/modal\.less}line{font-family:\0000310}}
-.modal-container {
-  position: fixed;
-  top: 0;
-  left: 0;
-  display: flex;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.8);
-}
-/* line 19, modal.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/modal\.less}line{font-family:\0000319}}
-.modal-container-close {
-  display: none;
-}
-/* line 22, modal.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/modal\.less}line{font-family:\0000322}}
-input {
-  outline: none;
-  border: none;
-}
-/* line 26, modal.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/modal\.less}line{font-family:\0000326}}
-.modal-auth {
-  border-radius: 30px;
-  width: 360px;
-}
-/* line 30, modal.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/modal\.less}line{font-family:\0000330}}
-.modal-close-button {
-  position: absolute;
-  padding: 0;
-  top: 7px;
-  right: 10px;
-  width: 35px;
-  height: 30px;
-  border: none;
-  background-repeat: no-repeat;
-  background-position: center;
-  cursor: pointer;
-  background-color: white;
-}
-/* line 43, modal.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/modal\.less}line{font-family:\0000343}}
-.modal-title {
-  margin: 0 0 24px 0;
-  font-size: 32px;
-  line-height: 35px;
-  font-weight: bold;
-  color: #000000;
-}
-/* line 50, modal.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/modal\.less}line{font-family:\0000350}}
-.auth-form .field-group {
-  margin: 0 0 28px 0;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-/* line 56, modal.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/modal\.less}line{font-family:\0000356}}
-.auth-form-user-options {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-/* line 61, modal.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/modal\.less}line{font-family:\0000361}}
-.auth-form .field {
-  width: 60%;
-  border-radius: 10px;
-  padding: 10px 0 10px 10px;
-  background-color: rgba(133, 132, 132, 0.2);
-}
-/* line 67, modal.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/modal\.less}line{font-family:\0000367}}
-.auth-form-button {
-  width: 150px;
-}
-/* line 70, modal.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/modal\.less}line{font-family:\0000370}}
-.auth-form-register {
-  color: #000000;
-}
-/* line 73, modal.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/modal\.less}line{font-family:\0000373}}
-.control-mark::before,
-.control-mark::after {
-  position: absolute;
-  top: 5px;
-  left: 20px;
-  width: 2px;
-  height: 20px;
-  background-color: #242424;
-  content: "";
-}
-/* line 83, modal.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/modal\.less}line{font-family:\0000383}}
-.control-mark::before {
-  transform: rotate(45deg);
-}
-/* line 86, modal.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/modal\.less}line{font-family:\0000386}}
-.control-mark::after {
-  transform: rotate(-45deg);
-}
 @media (max-width: 605px) {
-  /* line 4, adaptive.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/adaptive\.less}line{font-family:\000034}}
   .header-link {
     font-size: 15px;
   }
 }
+@media (max-width: 535px) {
+  .header-link,
+  .btn {
+    font-size: 13px !important;
+  }
+}
 @media (max-width: 565px) {
-  /* line 9, adaptive.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/adaptive\.less}line{font-family:\000039}}
   .skills-img {
     width: 120px !important;
   }
-  /* line 12, adaptive.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/adaptive\.less}line{font-family:\0000312}}
   .skills-list--item svg {
     width: 120px !important;
   }
 }
-@media (max-width: 505px) {
-  /* line 17, adaptive.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/adaptive\.less}line{font-family:\0000317}}
+@media (max-width: 490px) {
   .page {
-    font-size: 15px;
+    font-size: 15px !important;
   }
-  /* line 20, adaptive.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/adaptive\.less}line{font-family:\0000320}}
   .main-logo-img {
     height: 300px;
   }
-  /* line 23, adaptive.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/adaptive\.less}line{font-family:\0000323}}
-  .header-link {
-    font-size: 13px;
-    padding: 15px 5px;
-  }
-  /* line 27, adaptive.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/adaptive\.less}line{font-family:\0000327}}
   .header-nav--menu {
     gap: 10px;
   }
 }
 @media (max-width: 470px) {
-  /* line 32, adaptive.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/adaptive\.less}line{font-family:\0000332}}
   .header-link {
     font-size: 10px;
   }
 }
 @media (max-width: 465px) {
-  /* line 37, adaptive.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/adaptive\.less}line{font-family:\0000337}}
   .skills-img {
     width: 100px !important;
   }
-  /* line 40, adaptive.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/adaptive\.less}line{font-family:\0000340}}
   .skills-list--item svg {
     width: 100px !important;
   }
-  /* line 43, adaptive.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/adaptive\.less}line{font-family:\0000343}}
   header .container {
     gap: 15px;
   }
-  /* line 46, adaptive.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/adaptive\.less}line{font-family:\0000346}}
-  .modal-auth {
-    width: 250px;
-  }
-  /* line 49, adaptive.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/adaptive\.less}line{font-family:\0000349}}
-  .modal-title {
-    font-size: 20px;
-  }
-  /* line 52, adaptive.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/adaptive\.less}line{font-family:\0000352}}
-  .auth-form-button {
-    width: 80px;
-  }
 }
 @media (max-width: 456px) {
-  /* line 57, adaptive.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/adaptive\.less}line{font-family:\0000357}}
   .header-menu-icon {
     z-index: 5;
     display: block;
@@ -362,8 +164,6 @@ input {
     height: 18px;
     cursor: pointer;
   }
-  /* line 65, adaptive.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/adaptive\.less}line{font-family:\0000365}}
   .header-menu-icon::after,
   .header-menu-icon::before,
   .header-menu-icon span {
@@ -373,8 +173,6 @@ input {
     width: 100%;
     background-color: #111;
   }
-  /* line 74, adaptive.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/adaptive\.less}line{font-family:\0000374}}
   .dark-theme .header-menu-icon::after,
   .dark-theme .header-menu-icon::before,
   .dark-theme .header-menu-icon span {
@@ -384,47 +182,31 @@ input {
     width: 100%;
     background-color: #969696;
   }
-  /* line 83, adaptive.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/adaptive\.less}line{font-family:\0000383}}
   .header-menu-icon::after,
   .header-menu-icon::before {
     content: '';
   }
-  /* line 87, adaptive.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/adaptive\.less}line{font-family:\0000387}}
   .header-menu-icon::after {
     bottom: 0;
   }
-  /* line 90, adaptive.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/adaptive\.less}line{font-family:\0000390}}
   .header-menu-icon::before {
     top: 0;
   }
-  /* line 93, adaptive.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/adaptive\.less}line{font-family:\0000393}}
   .header-menu-icon span {
     top: 50%;
     transform: scale(1) translate(0, -50%);
   }
-  /* line 97, adaptive.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/adaptive\.less}line{font-family:\0000397}}
   .header-menu-icon.active::before {
     top: 50%;
     transform: rotate(-45deg);
   }
-  /* line 101, adaptive.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/adaptive\.less}line{font-family:\00003101}}
   .header-menu-icon.active::after {
     top: 50%;
     transform: rotate(45deg);
   }
-  /* line 105, adaptive.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/adaptive\.less}line{font-family:\00003105}}
   .header-menu-icon.active span {
     transform: scale(0) translate(0, -50%);
   }
-  /* line 108, adaptive.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/adaptive\.less}line{font-family:\00003108}}
   .header-nav {
     position: fixed;
     opacity: 0;
@@ -436,203 +218,128 @@ input {
     transition: opacity 0.3s ease-in-out;
     z-index: -1;
   }
-  /* line 119, adaptive.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/adaptive\.less}line{font-family:\00003119}}
   .dark-theme .header-nav {
     background-color: #242424;
   }
-  /* line 122, adaptive.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/adaptive\.less}line{font-family:\00003122}}
   .header-nav.active {
     opacity: 1;
     z-index: 3;
   }
-  /* line 126, adaptive.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/adaptive\.less}line{font-family:\00003126}}
   .header-nav--menu {
     flex-direction: column;
     border: none;
     align-items: center;
     margin-top: 80px;
   }
-  /* line 132, adaptive.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/adaptive\.less}line{font-family:\00003132}}
   .header-link {
-    font-size: 32px;
+    font-size: 32px !important;
   }
-  /* line 135, adaptive.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/adaptive\.less}line{font-family:\00003135}}
   .header-nav--menu {
     gap: 40px;
   }
-  /* line 138, adaptive.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/adaptive\.less}line{font-family:\00003138}}
   .btn {
     z-index: 2;
   }
 }
 @media (max-width: 420px) {
-  /* line 143, adaptive.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/adaptive\.less}line{font-family:\00003143}}
   .error h2:nth-child(2) {
     font-size: 20px;
   }
 }
 @media (max-width: 410px) {
-  /* line 148, adaptive.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/adaptive\.less}line{font-family:\00003148}}
   .header-content {
     gap: 10px 40px;
   }
 }
 @media (max-width: 400px) {
-  /* line 153, adaptive.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/adaptive\.less}line{font-family:\00003153}}
-  .skills-title--sub {
+  .skills-title--sub,
+  .sub-text {
     font-size: 15px;
   }
-  /* line 156, adaptive.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/adaptive\.less}line{font-family:\00003156}}
   .main-logo-img {
     height: 250px;
   }
-  /* line 159, adaptive.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/adaptive\.less}line{font-family:\00003159}}
   .skills-img {
     width: 80px !important;
   }
-  /* line 162, adaptive.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/adaptive\.less}line{font-family:\00003162}}
   .skills-list--item svg {
     width: 80px !important;
   }
 }
-@media (max-width: 350px) {
-  /* line 167, adaptive.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/adaptive\.less}line{font-family:\00003167}}
-  .modal-auth {
-    width: 200px;
-  }
-  /* line 170, adaptive.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/adaptive\.less}line{font-family:\00003170}}
-  .auth-form-button {
-    width: 60px;
-    font-size: 12px;
-  }
-}
 @keyframes opac {
-  /* line 3, keyframes.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/keyframes\.less}line{font-family:\000033}}
   0% {
     opacity: 0;
   }
-  /* line 6, keyframes.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/keyframes\.less}line{font-family:\000036}}
   30% {
     opacity: 0.3;
   }
-  /* line 9, keyframes.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/keyframes\.less}line{font-family:\000039}}
   60% {
     opacity: 0.6;
   }
-  /* line 12, keyframes.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/keyframes\.less}line{font-family:\0000312}}
   100% {
     opacity: 1;
   }
 }
 @keyframes trans {
-  /* line 17, keyframes.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/keyframes\.less}line{font-family:\0000317}}
   0% {
     transform: rotate(0deg);
   }
-  /* line 20, keyframes.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/keyframes\.less}line{font-family:\0000320}}
   30% {
     transform: rotate(180deg);
   }
-  /* line 23, keyframes.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/keyframes\.less}line{font-family:\0000323}}
   70% {
     transform: rotate(270deg);
   }
-  /* line 26, keyframes.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/keyframes\.less}line{font-family:\0000326}}
   100% {
     transform: rotate(360deg);
   }
 }
 @keyframes ride {
-  /* line 31, keyframes.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/keyframes\.less}line{font-family:\0000331}}
   0% {
     transform: translateY(-100%);
   }
-  /* line 34, keyframes.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/keyframes\.less}line{font-family:\0000334}}
   100% {
     transform: translateY(0);
   }
 }
-/* line 3, dark-theme.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/dark-theme\.less}line{font-family:\000033}}
 .dark-theme {
   transition: 0.4s ease-in-out all;
   background-color: #161617 !important;
   color: #969696 !important;
 }
-/* line 7, dark-theme.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/dark-theme\.less}line{font-family:\000037}}
 .dark-theme body {
   background-color: #19191a;
   transition: background-color ease-in-out 0.4s;
 }
-/* line 11, dark-theme.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/dark-theme\.less}line{font-family:\0000311}}
 .dark-theme .modal-close-button {
   background-color: #161617;
 }
-/* line 14, dark-theme.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/dark-theme\.less}line{font-family:\0000314}}
 .dark-theme h5 {
   color: #161617 !important;
 }
-/* line 17, dark-theme.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/dark-theme\.less}line{font-family:\0000317}}
 .dark-theme .control-mark::before,
 .dark-theme .control-mark::after {
   background-color: #969696;
 }
-/* line 21, dark-theme.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/dark-theme\.less}line{font-family:\0000321}}
 .dark-theme .modal-container a {
   color: #969696;
 }
-/* line 24, dark-theme.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/dark-theme\.less}line{font-family:\0000324}}
 .dark-theme .modal-auth {
   background-color: #161617;
 }
-/* line 27, dark-theme.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/dark-theme\.less}line{font-family:\0000327}}
 .dark-theme .modal-title {
   color: #969696;
 }
-/* line 30, dark-theme.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/dark-theme\.less}line{font-family:\0000330}}
 .dark-theme .btn:hover {
   background-color: #19191a;
 }
-/* line 33, dark-theme.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/dark-theme\.less}line{font-family:\0000333}}
 .dark-theme .profile-projects--menu {
   background-color: #161617;
   transition: 0.4s ease-in-out all;
 }
-/* line 2, footer.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/footer\.less}line{font-family:\000032}}
+.dark-theme .modal-content {
+  background-color: #19191a;
+}
 .footer {
   display: flex;
   flex-direction: column;
@@ -640,8 +347,6 @@ input {
   gap: 15px 0;
   padding-bottom: 10px;
 }
-/* line 9, footer.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/footer\.less}line{font-family:\000039}}
 .footer-content {
   display: flex;
   align-items: center;
@@ -649,114 +354,63 @@ input {
   gap: 0 20px;
   font-size: smaller;
 }
-/* line 10, style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/style\.less}line{font-family:\0000310}}
-*,
-*::before,
-*::after {
-  margin: 0;
-  padding: 0;
-}
-/* line 16, style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/style\.less}line{font-family:\0000316}}
-.error {
-  color: #fe3f3f;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: calc(-15vh);
-  min-height: 300px;
-}
-/* line 25, style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/style\.less}line{font-family:\0000325}}
 html {
   scroll-behavior: smooth;
 }
-/* line 28, style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/style\.less}line{font-family:\0000328}}
-body {
+.page {
   animation: opac 0.5s;
-  min-width: 300px;
+  min-width: 350px !important;
   margin: 0;
   padding: 0;
   font-family: 'Montserrat', sans-serif;
   font-size: 20px;
 }
-/* line 35, style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/style\.less}line{font-family:\0000335}}
-body.lock {
+.page.lock {
   overflow: hidden;
 }
-/* line 39, style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/style\.less}line{font-family:\0000339}}
 .visually-hidden {
   visibility: hidden;
   width: 1px;
   height: 1px;
 }
-/* line 44, style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/style\.less}line{font-family:\0000344}}
 .container {
   max-width: 1200px;
   margin: 0 auto;
 }
-/* line 48, style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/style\.less}line{font-family:\0000348}}
 ul {
   padding: 0;
   list-style-type: none;
 }
-/* line 52, style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/style\.less}line{font-family:\0000352}}
 a {
   transition: 0.2s ease-in-out all;
   color: #6500ff;
   text-decoration: none;
 }
-/* line 56, style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/style\.less}line{font-family:\0000356}}
 a:hover {
   color: #29026f;
 }
-/* line 60, style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/style\.less}line{font-family:\0000360}}
 h2 {
   font-size: 30px;
   margin: 0;
 }
-/* line 64, style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/style\.less}line{font-family:\0000364}}
 .gray {
   color: #969696;
 }
-/* line 67, style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/style\.less}line{font-family:\0000367}}
 .blue {
   color: #00bebe;
 }
-/* line 70, style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/style\.less}line{font-family:\0000370}}
 .pink {
   color: #6500ff;
 }
-/* line 73, style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/style\.less}line{font-family:\0000373}}
 .red {
   color: #fe3f3f;
 }
-/* line 76, style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/style\.less}line{font-family:\0000376}}
 .green {
   color: #009c00;
 }
-/* line 79, style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/style\.less}line{font-family:\0000379}}
 .text-logo {
   color: #6500ff;
 }
-/* line 82, style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/style\.less}line{font-family:\0000382}}
 .btn {
   transition: 0.3s ease-in-out all;
   color: white;
@@ -768,21 +422,37 @@ h2 {
   cursor: pointer;
   border: 2px solid #6500ff;
 }
-/* line 92, style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/style\.less}line{font-family:\0000392}}
 .btn:hover {
   color: #6500ff;
   background-color: #fff;
+  border: 2px solid #6500ff;
 }
-/* line 97, style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/style\.less}line{font-family:\0000397}}
 .light-theme {
   background-color: #fff;
   transition: 0.4s ease-in-out background-color;
 }
-/* line 101, style.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/scoffs\/Documents\/GitHub\/dev\/assets\/css\/style\.less}line{font-family:\00003101}}
 .main {
   padding: 20px;
+  flex: 1 1 auto;
 }
-/*# sourceMappingURL=style.css.map */
+.error {
+  color: #fe3f3f;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: calc(-15vh);
+  min-height: 300px;
+}
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.carousel {
+  width: 70%;
+  margin: 0 auto;
+}
+.carousel-item img {
+  border-radius: 10px;
+}

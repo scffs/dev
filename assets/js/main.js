@@ -1,11 +1,6 @@
 const page = document.querySelector('.page');
 const themeButton = document.querySelector('.btn-theme');
 const body = document.querySelector('.light-theme');
-// закрытие модального окна
-const closeButton = document.querySelector('.modal-close-button');
-const modalContainer = document.querySelector('.modal-container');
-// открытие модального окна
-const openButton = document.querySelector('.btn-log-in');
 // бургер меню
 const burgerMenu = document.querySelector('.header-menu-icon');
 const headerLink = document.querySelector('.header-link');
@@ -19,15 +14,6 @@ themeButton.onclick = function() {
         document.querySelector(".git").src="assets/img/GitHub-Mark-Light-120px-plus.png";
     }
 };
-closeButton.onclick = function (){
-    modalContainer.classList.toggle('modal-container-close');
-    page.classList.toggle('lock');
-}
-openButton.onclick = function (){
-    modalContainer.classList.toggle('modal-container-close');
-    page.classList.toggle('lock');
-}
-
 if(burgerMenu){
     const headerMenu = document.querySelector('.header-nav');
     burgerMenu.addEventListener("click", function (){

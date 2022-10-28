@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="assets/img/ava.png" type="image/png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
     <script defer src="assets/js/main.js"></script>
 </head>
@@ -23,11 +24,11 @@
             <nav class="header-nav">
                 <ul class="header-nav--menu">
                     <li class="header-menu--item"><a class="header-link" href="#skills">Skills</a></li>
-                    <li class="header-menu--item"><a class="header-link" href="error.html">About me</a></li>
+                    <li class="header-menu--item"><a class="header-link" href="#about">About me</a></li>
                     <li class="header-menu--item"><a class="header-link" href="error.html">Contacts</a></li>
                 </ul>
             </nav>
-            <button class="btn btn-log-in" id="log-in" type="button">Log in</button>
+            <button class="btn btn-log-in" id="log-in" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Log in</button>
         </div>
     </div>
 </header>
@@ -54,7 +55,7 @@
                 <li class="projects-menu--item">
                     Website layout Kvast [<a href="https://github.com/scffs/HomeWork" target="_blank">Web</a>]
                 </li>
-                <li class="projects-menu--item">
+                <li class="projects-menu--item ">
                     Portfolio Website [<a href="https://github.com/scffs/scffs.github.io" target="_blank">Web</a>]
                 </li>
             </ul>
@@ -63,7 +64,7 @@
     <section class="skills" id="skills">
         <div class="container">
             <h2 class="skills-title title">Skills</h2>
-            <p class="skills-text skills-text-2">
+            <p class="sub-text skills-text-2">
                 I study <span class="red">tools</span> / <span class="red">languages</span> such as
             </p>
             <div class="skills-box">
@@ -103,17 +104,17 @@
                         </svg>
                     </li>
                     <li class="skills-list--item">
-                        <img class="skills-img" src="assets/img/PyCharm_Icon.svg" alt="PyCharm">
-                    </li>
-                    <li class="skills-list--item">
                         <img class="skills-img" src="assets/img/PhpStorm_Icon.svg" alt="PHPStorm">
                     </li>
                     <li class="skills-list--item">
-                        <img class="skills-img" src="assets/img/Blender_logo_no_text.svg" alt="Blender">
+                        <img class="skills-img" src="assets/img/color-1c4aab2b.png" alt="SCSS">
+                    </li>
+                    <li class="skills-list--item">
+                        <img src="assets/img/bootstrap-logo.svg" class="skills-img" alt="BS5">
                     </li>
                 </ul>
             </div>
-            <p class="skills-text-2 skills-text">In the near future I plan to learn
+            <p class="skills-text-2 sub-text">In the near future I plan to learn
                 <span class="red">tools</span> / <span class="red">languages</span> such as
             </p>
             <div class="skills-box">
@@ -143,10 +144,42 @@
                     <li class="skills-list--item">
                         <img src="assets/img/PHPMy.png" class="skills-img" alt="PHPMyAdmin">
                     </li>
-                    <li class="skills-list--item">
-                        <img src="assets/img/Unity_Technologies_logo.svg" class="skills-img" alt="Unity">
-                    </li>
+
                 </ul>
+            </div>
+        </div>
+    </section>
+    <section>
+        <h2 class="title" id="about">About me</h2>
+        <p class="sub-text skills-text-2">
+            Here is some information <span class="red">about me</span> <br> <span class="red">For example</span> my certificates
+        </p>
+        <div class="container">
+            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2" class=""></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3" class="" aria-current="true"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                        <img src="assets/img/courses/CN.jpg" class="d-block w-100" alt="Certificate">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="assets/img/courses/web.jpg" class="d-block w-100" alt="Certificate">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/img/courses/st.jpg" class="d-block w-100" alt="Certificate">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
         </div>
     </section>
@@ -161,30 +194,23 @@
         <i>2022 &copy; by Scoffs</i>
     </div>
 </footer>
-<div class="modal-container modal-container-close">
-    <div class="modal modal-auth">
-        <button type="button" class="modal-close-button">
-            <span class="control-mark"></span>
-        </button>
-        <section class="modal-content">
-            <h2 class="modal-title">Личный кабинет</h2>
-            <form class="auth-form" action="index.html" method="get">
-                <p class="field-group">
-                    <label for="auth-login">Логин</label>
-                    <input class="auth-form-field field" type="text" id="auth-login" name="auth-login" placeholder="Логин">
-                </p>
-                <p class="field-group">
-                    <label for="auth-password">Пароль</label>
-                    <input class="auth-form-field field" type="password" id="auth-password" name="auth-password" placeholder="Пароль">
-                </p>
-                <p class="auth-form-user-options">
-                    <button class="btn auth-form-button" type="submit">Войти</button>
-                    <a class="button auth-form-register" href="#">Забыл пароль</a>
-                </p>
-            </form>
-        </section>
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Wassup</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <h4 style="color: #969696">It's till empty here..</h4>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
     </div>
 </div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 </body>
 </html>
 

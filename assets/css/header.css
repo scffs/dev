@@ -1,5 +1,3 @@
-// main: style.less
-@import "vars";
 .header-menu-icon {
   display: none;
 }
@@ -20,9 +18,9 @@
   gap: 20px;
   padding: 15px 0;
   margin: 0;
-  border-bottom: 1px solid @primary-color;
-  border-top: 1px solid @primary-color;
+  border-bottom: 1px solid #6500ff;
+  border-top: 1px solid #6500ff;
 }
 .header-link {
-  color: @primary-color;
+  color: #6500ff;
 }
