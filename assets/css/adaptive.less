@@ -2,13 +2,7 @@
 @import "vars";
 @media (max-width: 605px) {
   .header-link {
-    font-size: 15px;
-  }
-}
-@media (max-width: 535px) {
-  .header-link,
-  .btn {
-    font-size: 13px !important;
+    font-size: 0.75rem;
   }
 }
 @media (max-width: 565px) {
@@ -21,7 +15,7 @@
 }
 @media (max-width: 490px) {
   .page {
-    font-size: 15px !important;
+    font-size: 0.75rem;
   }
   .main-logo-img {
     height: 300px;
@@ -31,8 +25,8 @@
   }
 }
 @media (max-width: 470px) {
-  .header-link{
-    font-size: 10px;
+  .header-link, .btn{
+    font-size: 0.7rem !important;
   }
 }
 @media (max-width: 465px) {
@@ -110,7 +104,7 @@
     z-index: -1;
   }
   .dark-theme .header-nav {
-    background-color: #242424;
+    background-color: @dark-theme-color;
   }
   .header-nav.active {
     opacity: 1;
@@ -134,17 +128,15 @@
 }
 @media (max-width: 420px) {
   .error h2:nth-child(2) {
-    font-size: 20px;
-  }
-}
-@media (max-width: 410px) {
-  .header-content {
-    gap: 10px 40px;
+    font-size: 0.75rem;
   }
 }
 @media (max-width: 400px) {
-  .skills-title--sub, .sub-text {
-    font-size: 15px;
+  .sub-text,  footer{
+    font-size: 0.7rem;
+  }
+  .skills-title--sub, .main-content{
+    font-size: 0.85rem;
   }
   .main-logo-img {
     height: 250px;

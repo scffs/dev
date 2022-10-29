@@ -43,12 +43,13 @@
   display: -ms-flexbox;
   display: flex;
   gap: 20px;
-  padding: 15px 0;
   margin: 0;
   border-bottom: 1px solid #6500ff;
   border-top: 1px solid #6500ff;
 }
 .header-link {
+  display: inline-block;
+  padding: 10px 0;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   color: #6500ff;
@@ -57,7 +58,7 @@
   display: none;
 }
 .main-content {
-  font-size: 18px;
+  font-size: 1.2rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -73,18 +74,18 @@
   padding-top: 50px;
 }
 .profile-card {
-  -webkit-animation: ride 0.5s ease-in;
-          animation: ride 0.5s ease-in;
+  -webkit-animation: ride 0.4s ease-in-out;
+          animation: ride 0.4s ease-in-out;
 }
 .main-logo-img {
-  -webkit-animation: ride 0.4s ease-in;
-          animation: ride 0.4s ease-in;
+  -webkit-animation: ride 0.4s ease-in-out;
+          animation: ride 0.4s ease-in-out;
   height: 350px;
   border-radius: 40px;
 }
 .profile-card--name {
   font-family: "Montserrat", sans-serif;
-  font-weight: 500 !important;
+  font-weight: 500  ;
   color: #6500ff;
 }
 .profile-skills--menu {
@@ -107,12 +108,11 @@
   border-color: #009c00;
 }
 .profile-projects--menu {
-  -webkit-box-shadow: 0 1px 5px rgba(113, 78, 160, 0.8);
-          box-shadow: 0 1px 5px rgba(113, 78, 160, 0.8);
-  background: #ececec;
+  -webkit-box-shadow: 0 1px 5px 1px rgba(113, 78, 160, 0.9);
+          box-shadow: 0 1px 5px 1px rgba(113, 78, 160, 0.9);
   border-radius: 20px;
   padding: 10px;
-  color: #858484;
+  color: #636363;
 }
 .projects-menu--item {
   padding: 10px;
@@ -142,7 +142,7 @@
 .skills-title--sub {
   color: #fe3f3f;
   text-align: center;
-  line-height: 40px;
+  line-height: 2;
 }
 .skills-list {
   display: -webkit-box;
@@ -163,18 +163,12 @@
   padding: 10px;
   border-radius: 40px;
   max-width: 800px;
-  -webkit-box-shadow: 0 1px 5px rgba(113, 78, 160, 0.8);
-          box-shadow: 0 1px 5px rgba(113, 78, 160, 0.8);
+  -webkit-box-shadow: 0 1px 5px 1px rgba(113, 78, 160, 0.9);
+          box-shadow: 0 1px 5px 1px rgba(113, 78, 160, 0.9);
 }
 @media (max-width: 605px) {
   .header-link {
-    font-size: 15px;
-  }
-}
-@media (max-width: 535px) {
-  .header-link,
-  .btn {
-    font-size: 13px !important;
+    font-size: 0.75rem;
   }
 }
 @media (max-width: 565px) {
@@ -187,7 +181,7 @@
 }
 @media (max-width: 490px) {
   .page {
-    font-size: 15px !important;
+    font-size: 0.75rem;
   }
   .main-logo-img {
     height: 300px;
@@ -197,8 +191,9 @@
   }
 }
 @media (max-width: 470px) {
-  .header-link {
-    font-size: 10px;
+  .header-link,
+  .btn {
+    font-size: 0.7rem !important;
   }
 }
 @media (max-width: 465px) {
@@ -281,7 +276,7 @@
     z-index: -1;
   }
   .dark-theme .header-nav {
-    background-color: #242424;
+    background-color: #19191a;
   }
   .header-nav.active {
     opacity: 1;
@@ -310,18 +305,17 @@
 }
 @media (max-width: 420px) {
   .error h2:nth-child(2) {
-    font-size: 20px;
-  }
-}
-@media (max-width: 410px) {
-  .header-content {
-    gap: 10px 40px;
+    font-size: 0.75rem;
   }
 }
 @media (max-width: 400px) {
+  .sub-text,
+  footer {
+    font-size: 0.7rem;
+  }
   .skills-title--sub,
-  .sub-text {
-    font-size: 15px;
+  .main-content {
+    font-size: 0.85rem;
   }
   .main-logo-img {
     height: 250px;
@@ -423,15 +417,10 @@
   transition: 0.4s ease-in-out background-color;
 }
 .dark-theme {
-  -webkit-transition: 0.4s ease-in-out all;
-  transition: 0.4s ease-in-out all;
-  background-color: #161617 !important;
-  color: #969696 !important;
-}
-.dark-theme body {
+  -webkit-transition: 0.4s ease-in-out background-color;
+  transition: 0.4s ease-in-out background-color;
   background-color: #19191a;
-  -webkit-transition: background-color ease-in-out 0.4s;
-  transition: background-color ease-in-out 0.4s;
+  color: #969696;
 }
 .dark-theme h5 {
   color: #161617 !important;
@@ -440,7 +429,7 @@
   background-color: #19191a;
 }
 .dark-theme .profile-projects--menu {
-  background-color: #161617;
+  background-color: #19191a;
   -webkit-transition: 0.4s ease-in-out all;
   transition: 0.4s ease-in-out all;
 }
@@ -514,7 +503,7 @@ html {
 .page {
   -webkit-animation: opac 0.5s;
           animation: opac 0.5s;
-  min-width: 350px !important;
+  min-width: 300px !important;
   margin: 0;
   padding: 0;
   font-family: "Montserrat", sans-serif;
@@ -549,9 +538,7 @@ a:hover {
   color: #fff;
   font-size: inherit;
   background-color: #6500ff;
-  padding: 10px;
   border-radius: 10px;
-  cursor: pointer;
   border: 2px solid #6500ff;
 }
 .btn:hover {
@@ -590,7 +577,6 @@ a:hover {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  height: calc(-15vh);
   min-height: 300px;
 }
 /*# sourceMappingURL=style.css.map */
