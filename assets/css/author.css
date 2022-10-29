@@ -1,3 +1,15 @@
+.red {
+  color: #fe3f3f;
+}
+.gray {
+  color: #969696;
+}
+.blue {
+  color: #00bebe;
+}
+.green {
+  color: #009c00;
+}
 .main-content {
   display: flex;
   justify-content: center;

@@ -1,3 +1,15 @@
+.red {
+  color: #fe3f3f;
+}
+.gray {
+  color: #969696;
+}
+.blue {
+  color: #00bebe;
+}
+.green {
+  color: #009c00;
+}
 .skills {
   animation: ride 0.4s ease-in;
   padding: 0 20px;

@@ -1,28 +1,30 @@
 // main: style.less
 @import "vars";
-.header-menu-icon {
-  display: none;
-}
 .header {
   animation: ride 0.4s ease-in;
   height: 92px;
+  &-content {
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  &-nav--menu {
+    display: flex;
+    gap: 20px;
+    padding: 15px 0;
+    margin: 0;
+    border-bottom: 1px solid @primary-color;
+    border-top: 1px solid @primary-color;
+  }
+  &-link {
+    color: @primary-color;
+  }
+  &-menu-icon {
+    display: none;
+  }
 }
-.header-content {
-  display: flex;
-  padding: 20px;
-  justify-content: space-between;
-  align-items: center;
-  gap: 20px;
-  flex-wrap: wrap;
-}
-.header-nav--menu {
-  display: flex;
-  gap: 20px;
-  padding: 15px 0;
-  margin: 0;
-  border-bottom: 1px solid @primary-color;
-  border-top: 1px solid @primary-color;
-}
-.header-link {
-  color: @primary-color;
-}
+
+

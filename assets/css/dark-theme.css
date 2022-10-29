@@ -1,3 +1,19 @@
+.red {
+  color: #fe3f3f;
+}
+.gray {
+  color: #969696;
+}
+.blue {
+  color: #00bebe;
+}
+.green {
+  color: #009c00;
+}
+.light-theme {
+  background-color: #fff;
+  transition: 0.4s ease-in-out background-color;
+}
 .dark-theme {
   transition: 0.4s ease-in-out all;
   background-color: #161617 !important;
@@ -7,24 +23,8 @@
   background-color: #19191a;
   transition: background-color ease-in-out 0.4s;
 }
-.dark-theme .modal-close-button {
-  background-color: #161617;
-}
 .dark-theme h5 {
   color: #161617 !important;
-}
-.dark-theme .control-mark::before,
-.dark-theme .control-mark::after {
-  background-color: #969696;
-}
-.dark-theme .modal-container a {
-  color: #969696;
-}
-.dark-theme .modal-auth {
-  background-color: #161617;
-}
-.dark-theme .modal-title {
-  color: #969696;
 }
 .dark-theme .btn:hover {
   background-color: #19191a;

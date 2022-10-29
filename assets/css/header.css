@@ -1,5 +1,14 @@
-.header-menu-icon {
-  display: none;
+.red {
+  color: #fe3f3f;
+}
+.gray {
+  color: #969696;
+}
+.blue {
+  color: #00bebe;
+}
+.green {
+  color: #009c00;
 }
 .header {
   animation: ride 0.4s ease-in;
@@ -23,4 +32,7 @@
 }
 .header-link {
   color: #6500ff;
+}
+.header-menu-icon {
+  display: none;
 }
