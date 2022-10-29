@@ -1,12 +1,13 @@
 // main: style.less
 @import "vars";
 .main-content {
+  font-size: 18px;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 20px;
   flex-wrap: wrap;
-  padding-top: 80px;
+  padding-top: 50px;
 }
 .profile-card {
   animation: ride 0.5s ease-in;
@@ -17,6 +18,8 @@
   border-radius: 40px;
 }
 .profile-card--name {
+  font-family: @Montserrat;
+  font-weight: 500 !important;
   color: @primary-color;
 }
 .profile-skills--menu {
