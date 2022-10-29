@@ -123,7 +123,7 @@ a:hover{color:#29026f}
 .wrapper{min-height:100vh;display:flex;flex-direction:column}
 .carousel{width:70%;margin:0 auto}
 .carousel-item img{border-radius:10px}
-.carousel-indicators{margin-bottom:1rem}
+.carousel-indicators{margin-bottom:0}
 .modal-header{border-bottom:1px solid #6500ff}
 .modal-body{text-align:center}
 .modal-footer{border:none}

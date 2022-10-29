@@ -452,7 +452,7 @@ a:hover {
   border-radius: 10px;
 }
 .carousel-indicators {
-  margin-bottom: 1rem;
+  margin-bottom: 0;
 }
 .modal-header {
   border-bottom: 1px solid #6500ff;
