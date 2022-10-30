@@ -31,6 +31,49 @@
 .dark-pink {
   color: #7308f5;
 }
+.welcome {
+  height: 100vh;
+}
+.welcome-inner {
+  height: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 30px;
+}
+.welcome-inner__logo {
+  height: 128px;
+  border-radius: 60%;
+}
+.welcome-inner__title {
+  font-family: Manjari, sans-serif;
+  background: linear-gradient(45deg, #a366ff, #280066);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: table;
+  font-size: 2rem;
+  -webkit-transition: 2s all ease-in-out;
+  transition: 2s all ease-in-out;
+  font-weight: bolder;
+}
+.welcome-inner__title:hover {
+  background: linear-gradient(45deg, #280066, #6500ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: table;
+  -webkit-transition: 2s all ease-in-out;
+  transition: 2s all ease-in-out;
+}
 .modal-header {
   border-bottom: 1px solid #6500ff;
 }
@@ -325,6 +368,7 @@
   }
   .header-nav {
     position: fixed;
+    display: none;
     opacity: 0;
     top: 0;
     left: 0;
@@ -341,6 +385,7 @@
   .header-nav.active {
     opacity: 1;
     z-index: 3;
+    display: block;
   }
   .header-nav--menu {
     -webkit-box-orient: vertical;

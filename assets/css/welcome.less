@@ -1,0 +1,33 @@
+@import "vars";
+.welcome{
+  height: 100vh;
+}
+.welcome-inner{
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap:30px;
+}
+.welcome-inner__logo{
+  height: 128px;
+  border-radius: 60%;
+}
+.welcome-inner__title{
+  font-family: Manjari, sans-serif;
+  background: linear-gradient(45deg, lighten(@primary-color, 20%), darken(@primary-color, 30%));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: table;
+  font-size: 2rem;
+  transition: 2s all ease-in-out;
+  font-weight: bolder;
+  &:hover{
+    background: linear-gradient(45deg, darken(@primary-color, 30%), @primary-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: table;
+    transition: 2s all ease-in-out;
+  }
+}
