@@ -1,3 +1,4 @@
+
 const page = document.querySelector('.page');
 const themeButton = document.querySelector('.btn-theme');
 const bodyTheme = document.querySelector('.dark-theme');
@@ -38,3 +39,7 @@ if(burgerMenu){
     });
 }
 
+let popoverTriggerList = [].slice.call(document.querySelectorAll('[data-toggle="popover"]'));
+popoverTriggerList.map( function (popoverTiger){
+   return new bootstrap.Popover(popoverTiger);
+});

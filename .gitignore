@@ -1,3 +1,6 @@
 
 .idea/watcherTasks.xml
 /node_modules/
+*.iml
+.idea/scffs.github.io.iml
+*.xml
