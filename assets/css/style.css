@@ -129,6 +129,10 @@
   border: 1px solid black;
   padding: 5px;
 }
+.profile-skills--item:hover {
+  -webkit-transform: scale(1.09);
+          transform: scale(1.09);
+}
 .menu--item-1 {
   border-color: #00bebe;
 }
@@ -502,28 +506,6 @@
 .dark-theme .modal-content {
   background-color: #19191a;
 }
-.contacts-list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  gap: 40px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
-.list-item--link__img {
-  width: 46px;
-  height: 46px;
-}
-.list-item--link__img:hover {
-  -webkit-transform: scale(1.2);
-          transform: scale(1.2);
-}
 .footer {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -550,6 +532,29 @@
           justify-content: center;
   gap: 0 20px;
   font-size: 10px;
+}
+.contacts-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 40px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.list-item--link__img {
+  width: 46px;
+  height: 46px;
+  cursor: pointer;
+}
+.list-item--link__img:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
 }
 .carousel {
   width: 70%;
