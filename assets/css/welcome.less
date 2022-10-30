@@ -3,31 +3,45 @@
   height: 100vh;
 }
 .welcome-inner{
-  height: 600px;
+  height: 95%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap:30px;
 }
-.welcome-inner__logo{
-  height: 128px;
+.intro{
+  margin-top: 230px;
+  display: inline-flex;
+  flex-direction: column;
+  gap:30px;
+  align-items: center;
+  flex:1 1 auto;
+}
+.intro-inner__logo{
+  width: 128px;
   border-radius: 60%;
 }
-.welcome-inner__title{
-  font-family: Manjari, sans-serif;
-  background: linear-gradient(45deg, lighten(@primary-color, 20%), darken(@primary-color, 30%));
+.intro-inner__title{
+  background: linear-gradient(45deg, lighten(@primary-color, 10%), darken(@primary-color, 20%));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   display: table;
   font-size: 2rem;
-  transition: 2s all ease-in-out;
+  transition: 1s all ease-in-out;
   font-weight: bolder;
   &:hover{
     background: linear-gradient(45deg, darken(@primary-color, 30%), @primary-color);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     display: table;
-    transition: 2s all ease-in-out;
+    transition: 1s all ease-in-out;
+  }
+}
+.btn.btn--scroll{
+  color: @primary-color;
+  background: none;
+  &:hover{
+    background-color: #fff;
   }
 }
