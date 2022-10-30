@@ -7,10 +7,11 @@
   align-items: center;
   gap: 20px;
   flex-wrap: wrap;
-  padding-top: 50px;
+  margin-top: 150px !important;
 }
 .profile-card {
   animation: @animation-ride;
+  max-width: 400px;
 }
 .main-logo-img {
   animation: @animation-ride;
@@ -26,11 +27,12 @@
   padding: 5px 0;
   margin-bottom: 10px;
   display: flex;
+  flex-wrap: wrap;
   gap: 5px;
 }
 .profile-skills--item {
   border-radius: 10px;
-  border: 1px solid @color-red;
+  border: 1px solid black;
   padding: 5px;
 }
 .menu--item-1 {
@@ -39,7 +41,30 @@
 .menu--item-2 {
   border-color: #009c00;
 }
+.menu--item-3{
+  border-color: @color-violet;
+}
+.menu--item-4{
+  border-color: @color-orange;
+}
+.menu--item-5{
+  border-color: @color-blue;
+}
+.menu--item-6{
+  border-color: @color-yellow;
+}
+.menu--item-7{
+  border-color: @color-blue--dark;
+}
+.menu--item-8{
+  border-color: @color-pink;
+}
+.menu--item-9{
+  border-color: @color-pink--dark;
+}
 .profile-projects--menu {
+  display: flex;
+  flex-flow: wrap column;
   box-shadow: @box-shadow;
   border-radius: 20px;
   padding: 10px;

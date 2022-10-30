@@ -2,6 +2,10 @@
 @import "vars";
 @import "fonts";
 .header {
+  position: fixed;
+  left: 0;
+  right: 0;
+  background-color: #ffffff;
   animation: ride 0.4s ease-in;
   &-content {
     display: flex;
@@ -14,7 +18,6 @@
   &-nav--menu {
     display: flex;
     gap: 20px;
-    //align-items: center;
     margin: 0;
     border-bottom: 1px solid @primary-color;
     border-top: 1px solid @primary-color;
