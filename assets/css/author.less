@@ -12,56 +12,54 @@
 .profile-card {
   animation: @animation-ride;
   max-width: 400px;
+  &--name {
+    color: @primary-color;
+  }
+  &--menu {
+    font-family: var(--bs-body-font-family);
+    padding: 5px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7px 5px;
+  }
 }
 .main-logo-img {
   animation: @animation-ride;
   height: 350px;
   border-radius: 40px;
 }
-.profile-card--name {
-  color: @primary-color;
-}
-.profile-skills--menu {
-  padding: 5px 0;
-  margin-bottom: 10px;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 7px 5px;
-}
-.profile-skills--item {
+.card--menu-item {
   border-radius: 10px;
+  line-height: 1.3rem;
   border: 1px solid black;
   padding: 5px;
   &:hover{
     transform: scale(1.09);
   }
-}
-.menu--item-1 {
-  border-color: #00bebe;
-}
-.menu--item-2 {
-  border-color: #009c00;
-}
-.menu--item-3{
-  border-color: @color-violet;
-}
-.menu--item-4{
-  border-color: @color-orange;
-}
-.menu--item-5{
-  border-color: @color-blue;
-}
-.menu--item-6{
-  border-color: @color-yellow;
-}
-.menu--item-7{
-  border-color: @color-blue--dark;
-}
-.menu--item-8{
-  border-color: @color-pink;
-}
-.menu--item-9{
-  border-color: @color-pink--dark;
+  &__1{
+    border-color: @color-blue--light;
+  }
+  &__2 {
+    border-color: @color-violet;
+  }
+  &__3 {
+    border-color: @color-orange;
+  }
+  &__4 {
+    border-color: @color-blue;
+  }
+  &__5 {
+    border-color: @color-yellow;
+  }
+  &__6 {
+    border-color: @color-blue--dark;
+  }
+  &__7 {
+    border-color: @color-pink;
+  }
+  &__8 {
+    border-color: @color-pink--dark;
+  }
 }
 .profile-projects--menu {
   display: flex;
