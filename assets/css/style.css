@@ -35,7 +35,7 @@
   height: 100vh;
 }
 .welcome-inner {
-  height: 95%;
+  height: 92%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -682,12 +682,13 @@ a:hover {
   transition: 0.3s ease-in-out all;
   color: #fff;
   font-size: inherit;
-  background: linear-gradient(45deg, #a366ff, #5100cc);
+  background: -webkit-gradient(linear, left top, right top, from(#741aff), to(#5b00e6));
+  background: linear-gradient(90deg, #741aff, #5b00e6);
   border-radius: 10px;
   border: none;
 }
 .btn:hover {
-  color: #a366ff;
+  color: #280066;
 }
 .btn-check:focus + .btn,
 .btn .btn:focus {
