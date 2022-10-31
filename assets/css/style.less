@@ -52,13 +52,12 @@ a {
   &:hover {
     color: lighten(@primary-color, 20%);
   }
-}
-.btn-check:focus + .btn, .btn:focus{
-  box-shadow: none;
-  outline: none;
+  &-check:focus + .btn, .btn:focus{
+    box-shadow: none;
+    outline: none;
+  }
 }
 .wrapper{
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
 }
