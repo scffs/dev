@@ -1,12 +1,7 @@
 @import "vars";
 .main-content {
   font-size: 1.2rem;
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
   gap: 20px;
-  flex-wrap: wrap;
-  margin-top: 150px !important;
 }
 .profile-card {
   animation: @animation-ride;
@@ -17,8 +12,6 @@
   &--menu {
     font-family: var(--bs-body-font-family);
     padding: 5px 0;
-    display: flex;
-    flex-wrap: wrap;
     gap: 7px 5px;
   }
 }
@@ -28,7 +21,7 @@
   border-radius: 40px;
 }
 .card--menu-item {
-  border-radius: 10px;
+  border-radius: 0.5rem;
   line-height: 1.3rem;
   border: 1px solid black;
   padding: 5px;
@@ -61,10 +54,8 @@
   }
 }
 .profile-projects--menu {
-  display: flex;
-  flex-flow: wrap column;
   box-shadow: @box-shadow;
-  border-radius: 20px;
+  border-radius: 1rem;
   padding: 10px;
   color: darken(@color-gray, 20%);
 }

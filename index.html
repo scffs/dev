@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body class="page dark-theme">
-<div class="wrapper">
+<div class="d-flex flex-column">
     <header class="header">
         <div class="container">
             <div class="header-content">
@@ -43,18 +43,17 @@
                         <path fill-rule="evenodd" d="M15 2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2zM0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm8.5 2.5a.5.5 0 0 0-1 0v5.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V4.5z"/>
                     </svg>
                 </a>
-
             </div>
         </div>
     </section>
-    <main class="main" id="main-info">
-        <div class="main-content container">
+    <main class="main p-2" id="main-info">
+        <div class="main-content container d-flex flex-wrap justify-content-center align-items-start mt-5">
             <div class="main-logo">
                 <img src="assets/img/ava.png" class="main-logo-img" alt="Avatar">
             </div>
             <div class="profile-card">
                 <h2 class="profile-card--name">Scoffs<span class="gray">#000</span></h2>
-                <ul class="profile-card--menu">
+                <ul class="profile-card--menu d-flex flex-wrap">
                     <li class="card--menu-item card--menu-item__1"><span class="light-blue">Python</span></li>
                     <li class="card--menu-item card--menu-item__2"><span class="violet">C#</span></li>
                     <li class="card--menu-item card--menu-item__3"><span class="orange">HTML</span></li>
@@ -64,7 +63,7 @@
                     <li class="card--menu-item card--menu-item__7"><span class="pink">Sass</span></li>
                     <li class="card--menu-item card--menu-item__8"><span class="dark-pink">Bootstrap</span></li>
                 </ul>
-                <ul class="profile-projects--menu">
+                <ul class="profile-projects--menu d-flex flex-column">
                     <li class="projects-menu--item">
                         Square function score [<a href="https://github.com/scffs/square-function-score" target="_blank">Python</a>]
                     </li>
@@ -72,13 +71,10 @@
                         import.requests layout [<a href="https://github.com/scffs/import.requests" target="_blank">Web</a>]
                     </li>
                     <li class="projects-menu--item">
-                        Adv layout  [<a href="https://github.com/scffs/adv" target="_blank">Web</a>]
+                        Portfolio layout [<a href="https://github.com/scffs/scffs.github.io" target="_blank">Web</a>]
                     </li>
                     <li class="projects-menu--item">
                         Kvast layout  [<a href="https://github.com/scffs/HomeWork" target="_blank">Web</a>]
-                    </li>
-                    <li class="projects-menu--item">
-                        Portfolio layout [<a href="https://github.com/scffs/scffs.github.io" target="_blank">Web</a>]
                     </li>
                 </ul>
             </div>
@@ -91,7 +87,7 @@
                 </p>
                 <div class="skills-box">
                     <h3 class="skills-text-3 skills-title--sub">Web-Stack</h3>
-                    <ul class="skills-list">
+                    <ul class="skills-list d-flex justify-content-center align-items-center flex-wrap gap-4">
                         <li class="skills-list--item">
                             <img src="assets/img/icons8-html-5.svg" class="skills-img" alt="HTML5">
                         </li>
@@ -103,16 +99,19 @@
                         </li>
                     </ul>
                     <h3 class="skills-text-3 skills-title--sub">Programming languages</h3>
-                    <ul class="skills-list">
+                    <ul class="skills-list d-flex justify-content-center align-items-center flex-wrap gap-4">
                         <li class="skills-list--item">
                             <img src="assets/img/icons8-c-sharp-logo.svg" class="skills-img" alt="C#">
                         </li>
                         <li class="skills-list--item">
-                            <img src="assets/img/icons8-python.svg" class="skills-img" alt="JavaScript">
+                            <img src="assets/img/PHP-logo.svg" class="skills-img" alt="PHP">
+                        </li>
+                        <li class="skills-list--item">
+                            <img src="assets/img/icons8-python.svg" class="skills-img" alt="Python">
                         </li>
                     </ul>
                     <h3 class="skills-text-3 skills-title--sub">Tools</h3>
-                    <ul class="skills-list">
+                    <ul class="skills-list d-flex justify-content-center align-items-center flex-wrap gap-4">
                         <li class="skills-list--item">
                             <svg class="skills-img" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <rect width="24" height="24" rx="6" fill="#131314"/>
@@ -126,13 +125,16 @@
                             </svg>
                         </li>
                         <li class="skills-list--item">
-                            <img class="skills-img" src="assets/img/PhpStorm_Icon.svg" alt="PHPStorm">
+                            <img src="assets/img/PHPMy.png" class="skills-img" alt="PHPMyAdmin">
                         </li>
                         <li class="skills-list--item">
                             <img class="skills-img" src="assets/img/color-1c4aab2b.png" alt="SCSS">
                         </li>
                         <li class="skills-list--item">
                             <img src="assets/img/bootstrap-logo.svg" class="skills-img" alt="BS5">
+                        </li>
+                        <li class="skills-list--item">
+                            <img src="assets/img/MySQL_textlogo.svg" class="skills-img" alt="MySQL">
                         </li>
                     </ul>
                 </div>
@@ -141,7 +143,7 @@
                 </p>
                 <div class="skills-box">
                     <h3 class="skills-text-3 skills-title--sub">Web-Frameworks</h3>
-                    <ul class="skills-list">
+                    <ul class="skills-list d-flex justify-content-center align-items-center flex-wrap gap-4">
                         <li class="skills-list--item">
                             <img class="skills-img" src="assets/img/React-icon.svg" alt="React">
                         </li>
@@ -153,20 +155,10 @@
                         </li>
                     </ul>
                     <h3 class="skills-text-3 skills-title--sub">Programming languages</h3>
-                    <ul class="skills-list">
+                    <ul class="skills-list d-flex justify-content-center align-items-center flex-wrap gap-4">
                         <li class="skills-list--item">
-                            <img src="assets/img/PHP-logo.svg" class="skills-img" alt="PHP">
+                            <img class="skills-img" src="assets/img/TS.svg" alt="TypeScript">
                         </li>
-                    </ul>
-                    <h3 class="skills-text-3 skills-title--sub">Tools</h3>
-                    <ul class="skills-list">
-                        <li class="skills-list--item">
-                            <img src="assets/img/MySQL_textlogo.svg" class="skills-img" alt="MySQL">
-                        </li>
-                        <li class="skills-list--item">
-                            <img src="assets/img/PHPMy.png" class="skills-img" alt="PHPMyAdmin">
-                        </li>
-
                     </ul>
                 </div>
             </div>
