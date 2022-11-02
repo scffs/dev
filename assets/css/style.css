@@ -29,7 +29,10 @@
   color: #cd6799;
 }
 .dark-pink {
-  color: #7308f5;
+  color: #8f13fe;
+}
+.ocean {
+  color: #00758f;
 }
 .welcome {
   height: 100vh;
@@ -203,7 +206,13 @@
   border-color: #cd6799;
 }
 .card--menu-item__8 {
-  border-color: #7308f5;
+  border-color: #8f13fe;
+}
+.card--menu-item__9 {
+  border-color: #009c00;
+}
+.card--menu-item__10 {
+  border-color: #00758f;
 }
 .profile-projects--menu {
   -webkit-box-shadow: 0 1px 5px 1px rgba(113, 78, 160, 0.9);
