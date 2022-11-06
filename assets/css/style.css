@@ -361,9 +361,6 @@
   .header-nav--menu {
     gap: 40px;
   }
-  .btn {
-    z-index: 2;
-  }
   .contacts-list {
     gap: 20px !important;
   }
