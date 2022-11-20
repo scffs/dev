@@ -1,0 +1,61 @@
+.primary-color {
+  color: #6500ff;
+}
+.red {
+  color: #fe3f3f;
+}
+.gray {
+  color: #969696;
+}
+.light-blue {
+  color: #00bebe;
+}
+.blue {
+  color: #3963e9;
+}
+.green {
+  color: #009c00;
+}
+.orange {
+  color: #ec5222;
+}
+.yellow {
+  color: #b4a600;
+}
+.dark-blue {
+  color: #254e85;
+}
+.violet {
+  color: #5400c4;
+}
+.pink {
+  color: #cd6799;
+}
+.dark-pink {
+  color: #8f13fe;
+}
+.ocean {
+  color: #00758f;
+}
+.header {
+  left: 0;
+  right: 0;
+  background-color: #ffffff;
+  animation: ride 0.4s ease-in;
+}
+.header-nav__menu {
+  gap: 20px;
+  margin: 0;
+  border-bottom: 1px solid #6500ff;
+  border-top: 1px solid #6500ff;
+  padding-top: 5px;
+}
+.header-link {
+  display: inline-block;
+  padding: 10px 0;
+  font-weight: bolder;
+  color: #6500ff;
+}
+.header-menu-icon {
+  display: none;
+}

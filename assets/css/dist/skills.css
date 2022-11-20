@@ -1,0 +1,70 @@
+.primary-color {
+  color: #6500ff;
+}
+.red {
+  color: #fe3f3f;
+}
+.gray {
+  color: #969696;
+}
+.light-blue {
+  color: #00bebe;
+}
+.blue {
+  color: #3963e9;
+}
+.green {
+  color: #009c00;
+}
+.orange {
+  color: #ec5222;
+}
+.yellow {
+  color: #b4a600;
+}
+.dark-blue {
+  color: #254e85;
+}
+.violet {
+  color: #5400c4;
+}
+.pink {
+  color: #cd6799;
+}
+.dark-pink {
+  color: #8f13fe;
+}
+.ocean {
+  color: #00758f;
+}
+.skills {
+  animation: ride 0.4s ease-in;
+  padding: 0 20px;
+}
+.skills-img {
+  width: 144px;
+}
+.skills-title--sub {
+  color: #fe3f3f;
+  text-align: center;
+  line-height: 2;
+}
+.skills-box {
+  margin: 0 auto 1rem;
+  padding: 10px;
+  border-radius: 2rem;
+  max-width: 800px;
+  box-shadow: 0 1px 5px 1px rgba(113, 78, 160, 0.9);
+}
+.title {
+  font-family: "Manjari", sans-serif;
+  font-weight: 600;
+  text-align: center;
+  color: #969696;
+  padding: 50px 0 10px;
+  font-size: 3rem;
+}
+.sub-text {
+  color: #6500ff;
+  text-align: center;
+}
