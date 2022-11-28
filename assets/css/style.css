@@ -174,6 +174,12 @@
   padding: 10px;
   font-size: 1.5rem;
 }
+.profileProjectsMenu .profile-link {
+  color: #bb2d3b;
+}
+.profileProjectsMenu .profile-link:hover{
+  color: #800000;
+}
 .login-img {
   width: 40px;
 }
@@ -436,32 +442,29 @@
   background-color: #19191a;
 }
 .footer {
-  display: flex;
   flex-direction: column;
   align-items: center;
   gap: 15px 0;
   padding-bottom: 10px;
 }
 .footer-content {
-  display: flex;
   align-items: center;
   justify-content: center;
   gap: 0 20px;
   font-size: 10px;
 }
 .contacts-list {
-  display: flex;
   justify-content: center;
   gap: 40px;
   align-items: center;
   flex-wrap: wrap;
 }
-.list-item--link__img {
+.contacts-list__link-img {
   width: 46px;
   height: 46px;
   cursor: pointer;
 }
-.list-item--link__img:hover {
+.contacts-list__link-img:hover {
   transform: scale(1.2);
 }
 .carousel {

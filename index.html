@@ -9,7 +9,8 @@
     <link rel="stylesheet" href="assets/bootstrap/bootstrap.min.css">
     <script defer src="assets/bootstrap/bootstrap.bundle.min.js"></script>
     <script defer src="assets/js/main.js"></script>
-    <link rel="stylesheet" href="assets/css/style.css">
+<!--    <link rel="stylesheet" href="assets/css/style.css">-->
+    <link rel="stylesheet" href="assets/css/style-min.css">
 </head>
 <body class="page dark-theme">
 <div class="d-flex flex-column">
@@ -22,7 +23,7 @@
                 </div>
                 <nav class="header-nav">
                     <ul class="header-nav__menu d-flex">
-                        <li class="header-nav__item"><a class="header-link" href="#main-info">Projects</a></li>
+                        <li class="header-nav__item"><a class="header-link" href="#main-info">Advantages</a></li>
                         <li class="header-nav__item"><a class="header-link" href="#skills">Skills</a></li>
                         <li class="header-nav__item"><a class="header-link" href="#about">About me</a></li>
                     </ul>
@@ -33,7 +34,7 @@
     </header>
     <section class="welcome">
         <div class="welcome-inner container d-flex flex-column justify-content-center align-items-center">
-            <div class="welcome-inner__intro flex-column align-items-center gap-5">
+            <div class="welcome-inner__intro d-inline-flex flex-column align-items-center gap-5">
                 <img class="intro-inner__logo" src="assets/img/ava.png" alt="Логотип">
                 <h2 class="intro-inner__title">I'm web dev in the future</h2>
             </div>
@@ -67,16 +68,17 @@
                 </ul>
                 <ul class="profileProjectsMenu d-flex flex-column">
                     <li class="profileProjectsMenu__item">
-                        Square function score [<a href="https://github.com/scffs/square-function-score" target="_blank">Python</a>]
+                        Member of <a href="https://htmlacademy.ru/intensive" target="_blank">.html academy</a> [<a
+                            class="profile-link" href="https://vk.com/bugs?act=reporter&id=614665065">Profile</a>]
                     </li>
                     <li class="profileProjectsMenu__item">
-                        import.requests layout [<a href="https://github.com/scffs/import.requests" target="_blank">Web</a>]
+                        Member of <a href="http://vk.com/testers" target="_blank">VK Testers</a> [<a
+                            href="https://htmlacademy.ru/profile/id1898037" class="profile-link">Profile</a>]
+                            <h6 style="font-size: 0.7rem">If you found some bugs you can
+                                <a href="http://vk.com/scffs" target="_blank">hit me up</a> - I'll help you</h6>
                     </li>
                     <li class="profileProjectsMenu__item">
-                        CAR-MUSC layout  [<a href="https://github.com/scffs/CAR-MUSC" target="_blank">Web</a>]
-                    </li>
-                    <li class="profileProjectsMenu__item">
-                        Sedona layout  [<a href="#main-info" title="Временно режим доступа ограничен">Private</a>]
+                        All my projects are <a href="https://github.com/scffs" target="_blank">here</a>
                     </li>
                 </ul>
             </div>
@@ -234,31 +236,31 @@
             </div>
         </div>
     </section>
-    <footer class="footer mt-5">
-        <div class="footer-content">
-            <ul class="contacts-list">
+    <footer class="footer mt-5 d-flex">
+        <div class="footer-content d-flex">
+            <ul class="contacts-list d-flex">
                 <li class="contacts-list--item">
                     <a class="contacts-list--item__link" href="https://github.com/scffs" target="_blank">
-                        <img class="git list-item--link__img" src="assets/img/GitHub-Mark-Light-120px-plus.png" alt="GitHub" title="My GitHub acc">
+                        <img class="git contacts-list__link-img" src="assets/img/GitHub-Mark-Light-120px-plus.png" alt="GitHub" title="My GitHub acc">
                     </a>
                 </li>
                 <li class="contacts-list--item">
                     <a class="contacts-list--item__link" href="https://t.me/sc0ffs" target="_blank">
-                        <img class="list-item--link__img" src="assets/img/TGW.png" alt="TG" title="My TG acc">
+                        <img class="contacts-list__link-img" src="assets/img/TGW.png" alt="TG" title="My TG acc">
                     </a>
                 </li>
                 <li class="contacts-list--item">
-                    <a class="contacts-list--item__link" href="https://vk.com/scoffs" target="_blank">
-                        <img class="list-item--link__img" src="assets/img/VKW.svg" alt="VK" title="My VK page">
+                    <a class="contacts-list--item__link" href="https://vk.com/scffs" target="_blank">
+                        <img class="contacts-list__link-img" src="assets/img/VKW.svg" alt="VK" title="My VK page">
                     </a>
                 </li>
                 <li class="contacts-list--item">
                     <a href="https://habr.com/ru/users/scoffs" target="_blank">
-                        <img class="list-item--link__img" src="assets/img/habr.png" alt="Habr" title="My Habr page">
+                        <img class="contacts-list__link-img" src="assets/img/habr.png" alt="Habr" title="My Habr page">
                     </a>
                 </li>
                 <li class="contacts-list--item">
-                    <img class="list-item--link__img" src="assets/img/discord-mark-blue.svg" data-toggle="popover" title="Scoffs#9554" data-content="Discord" alt="Discord">
+                    <img class="contacts-list__link-img" src="assets/img/discord-mark-blue.svg" data-toggle="popover" title="Scoffs#9554" data-content="Discord" alt="Discord">
                 </li>
             </ul>
         </div>
