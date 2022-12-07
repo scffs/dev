@@ -67,7 +67,8 @@ let rus = {
     libraries: 'Библиотеки',
     aboutInf: 'Здесь некоторая информация <span class="red">обо мне</span> <br> <span class="red">Например,</span> мои сертификаты',
     notFound: 'Страница не найдена',
-    goBack: 'Вернуться'
+    goBack: 'Вернуться',
+    lang: 'Язык'
 };
 
 let eng = {
@@ -90,7 +91,8 @@ let eng = {
     libraries: 'Libraries',
     aboutInf: 'Here is some information <span class="red">about me</span> <br> <span class="red">For example</span> my certificates',
     notFound: 'Page not found',
-    goBack: 'Go back'
+    goBack: 'Go back',
+    lang: 'Lang'
 };
 
 
