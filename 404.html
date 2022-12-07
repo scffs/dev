@@ -17,57 +17,57 @@
   <header class="header position-fixed">
     <div class="container">
       <div class="header__content d-flex justify-content-between align-items-center p-4 flex-wrap">
-        <button class="btn btn-theme" id="btn-theme" type="button">Theme</button>
+        <button text="theme" class="btn btn-theme" id="btn-theme" type="button">Theme</button>
         <div class="header-menu-icon">
           <span></span>
         </div>
         <nav class="header-nav">
           <ul class="header-nav__menu d-flex">
-            <li class="header-nav__item"><a class="header-link" href="index.html#main-info">Projects</a></li>
-            <li class="header-nav__item"><a class="header-link" href="index.html#skills">Skills</a></li>
-            <li class="header-nav__item"><a class="header-link" href="index.html#about">About me</a></li>
+            <li class="header-nav__item"><a class="header-link" href="index.html#main-info" text="advantages">Advantages</a></li>
+            <li class="header-nav__item"><a class="header-link" href="index.html#skills" text="skills">Skills</a></li>
+            <li class="header-nav__item"><a class="header-link" href="index.html#about" text="about">About me</a></li>
           </ul>
         </nav>
-        <button class="btn btn-log-in" id="log-in" type="button">RU</button>
+        <button class="btn btn-log-in btn-language" id="log-in" type="button">Lang</button>
       </div>
     </div>
   </header>
   <main class="main">
    <div class="error d-flex flex-column align-items-center justify-content-center">
      <h2 class="error-title fw-bold"> #404</h2>
-     <h3 class="red">Page not found</h3>
-     <a href="index.html" class="btn mt-5">Go back</a>
+     <h3 class="red" text="notFound">Page not found</h3>
+     <a href="index.html" class="btn mt-5" text="goBack">Go back</a>
    </div>
   </main>
-  <footer class="footer">
-    <div class="footer-content">
-      <ul class="contacts-list">
+  <footer class="footer mt-5 d-flex">
+    <div class="footer-content d-flex">
+      <ul class="contacts-list d-flex">
         <li class="contacts-list--item">
           <a class="contacts-list--item__link" href="https://github.com/scffs" target="_blank">
-            <img class="git list-item--link__img" src="assets/img/GitHub-Mark-Light-120px-plus.png" alt="GitHub" title="My GitHub acc">
+            <img class="git contacts-list__link-img" src="assets/img/GitHub-Mark-Light-120px-plus.png" alt="GitHub" title="My GitHub acc">
           </a>
         </li>
         <li class="contacts-list--item">
           <a class="contacts-list--item__link" href="https://t.me/sc0ffs" target="_blank">
-            <img class="list-item--link__img" src="assets/img/TGW.png" alt="TG" title="My TG acc">
+            <img class="contacts-list__link-img" src="assets/img/TGW.png" alt="TG" title="My TG acc">
           </a>
         </li>
         <li class="contacts-list--item">
-          <a class="contacts-list--item__link" href="https://vk.com/scoffs" target="_blank">
-            <img class="list-item--link__img" src="assets/img/VKW.svg" alt="VK" title="My VK page">
+          <a class="contacts-list--item__link" href="https://vk.com/scffs" target="_blank">
+            <img class="contacts-list__link-img" src="assets/img/VKW.svg" alt="VK" title="My VK page">
           </a>
         </li>
         <li class="contacts-list--item">
           <a href="https://habr.com/ru/users/scoffs" target="_blank">
-            <img class="list-item--link__img" src="assets/img/habr.png" alt="Habr" title="My Habr page">
+            <img class="contacts-list__link-img" src="assets/img/habr.png" alt="Habr" title="My Habr page">
           </a>
         </li>
         <li class="contacts-list--item">
-          <img class="list-item--link__img" src="assets/img/discord-mark-blue.svg" data-toggle="popover" title="Scoffs#9554" data-content="Discord" alt="Discord">
+          <img class="contacts-list__link-img" src="assets/img/discord-mark-blue.svg" data-toggle="popover" title="Scoffs#9554" data-content="Discord" alt="Discord">
         </li>
       </ul>
     </div>
-    <div class="footer-copyright gray">
+    <div class="footer-copyright gray" translate="no">
       <i>2022 &copy; by Scoffs</i>
     </div>
   </footer>
