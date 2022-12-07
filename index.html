@@ -12,23 +12,23 @@
 <!--    <link rel="stylesheet" href="assets/css/style.css">-->
     <link rel="stylesheet" href="assets/css/style-min.css">
 </head>
-<body class="page dark-theme">
+<body class="page dark-theme eng">
 <div class="d-flex flex-column">
     <header class="header position-fixed">
         <div class="container">
             <div class="header__content d-flex justify-content-between align-items-center p-4 flex-wrap">
-                <button class="btn btn-theme" id="btn-theme" type="button">Theme</button>
+                <button text="theme" class="btn btn-theme" id="btn-theme" type="button">Theme</button>
                 <div class="header-menu-icon">
                     <span></span>
                 </div>
                 <nav class="header-nav">
                     <ul class="header-nav__menu d-flex">
-                        <li class="header-nav__item"><a class="header-link" href="#main-info">Advantages</a></li>
-                        <li class="header-nav__item"><a class="header-link" href="#skills">Skills</a></li>
-                        <li class="header-nav__item"><a class="header-link" href="#about">About me</a></li>
+                        <li class="header-nav__item"><a class="header-link" href="#main-info" text="advantages">Advantages</a></li>
+                        <li class="header-nav__item"><a class="header-link" href="#skills" text="skills">Skills</a></li>
+                        <li class="header-nav__item"><a class="header-link" href="#about" text="about">About me</a></li>
                     </ul>
                 </nav>
-                <button class="btn btn-log-in" id="log-in" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Log in</button>
+                <button class="btn btn-log-in btn-language" id="log-in" type="button">Lang</button>
             </div>
         </div>
     </header>
@@ -36,7 +36,7 @@
         <div class="welcome-inner container d-flex flex-column justify-content-center align-items-center">
             <div class="welcome-inner__intro d-inline-flex flex-column align-items-center gap-5">
                 <img class="intro-inner__logo" src="assets/img/ava.png" alt="Логотип">
-                <h2 class="intro-inner__title">I'm web dev in the future</h2>
+                <h2 text="title" class="intro-inner__title">I'm web dev in the future</h2>
             </div>
             <div class="welcome-inner__scroll-down">
                 <a href="#main-info" class="btn btn--scroll">
@@ -53,32 +53,32 @@
                 <img src="assets/img/ava.png" class="main-logo-img" alt="Avatar">
             </div>
             <div class="profile-card">
-                <h2 class="profile-card--name">Scoffs<span class="gray">#000</span></h2>
+                <h2 class="profile-card--name" translate="no">Scoffs<span class="gray">#000</span></h2>
                 <ul class="profile-card--menu d-flex flex-wrap">
-                    <li class="card-menu__item card-menu__item--1"><span class="light-blue">Python</span></li>
-                    <li class="card-menu__item card-menu__item--2"><span class="violet">C#</span></li>
-                    <li class="card-menu__item card-menu__item--3"><span class="orange">HTML</span></li>
-                    <li class="card-menu__item card-menu__item--4"><span class="blue">CSS</span></li>
-                    <li class="card-menu__item card-menu__item--5"><span class="yellow">JS</span></li>
-                    <li class="card-menu__item card-menu__item--6"><span class="dark-blue">Less</span></li>
-                    <li class="card-menu__item card-menu__item--7"><span class="pink">Sass</span></li>
-                    <li class="card-menu__item card-menu__item--8"><span class="dark-pink">Bootstrap</span></li>
-                    <li class="card-menu__item card-menu__item--9"><span class="green">Node JS</span></li>
-                    <li class="card-menu__item card-menu__item--10"><span class="ocean">My SQL</span></li>
+                    <li translate="no" class="card-menu__item card-menu__item--1"><span class="light-blue">Python</span></li>
+                    <li translate="no" class="card-menu__item card-menu__item--2"><span class="violet">C#</span></li>
+                    <li translate="no" class="card-menu__item card-menu__item--3"><span class="orange">HTML</span></li>
+                    <li translate="no" class="card-menu__item card-menu__item--4"><span class="blue">CSS</span></li>
+                    <li translate="no" class="card-menu__item card-menu__item--5"><span class="yellow">JS</span></li>
+                    <li translate="no" class="card-menu__item card-menu__item--6"><span class="dark-blue">Less</span></li>
+                    <li translate="no" class="card-menu__item card-menu__item--7"><span class="pink">Sass</span></li>
+                    <li translate="no" class="card-menu__item card-menu__item--8"><span class="dark-pink">Bootstrap</span></li>
+                    <li translate="no" class="card-menu__item card-menu__item--9"><span class="green">Node JS</span></li>
+                    <li translate="no" class="card-menu__item card-menu__item--10"><span class="ocean">My SQL</span></li>
                 </ul>
                 <ul class="profileProjectsMenu d-flex flex-column">
                     <li class="profileProjectsMenu__item">
-                        Member of <a href="https://htmlacademy.ru/intensive" target="_blank">.html academy</a>
+                        <span text="member">Member of</span> <a href="https://htmlacademy.ru/intensive" target="_blank">.html academy</a>
                         [<a class="profile-link" href="https://htmlacademy.ru/profile/id1898037" target="_blank">Profile</a>]
                     </li>
                     <li class="profileProjectsMenu__item">
-                        Member of <a href="http://vk.com/testers" target="_blank">VK Testers</a>
+                        <span text="member">Member of</span> <a href="https://vk.com/testers" target="_blank">VK Testers</a>
                         [<a href="https://vk.com/bugs?act=reporter&id=614665065" class="profile-link" target="_blank">Profile</a>]
-                            <h6 style="font-size: 0.7rem">If you found some bugs you can
-                                <a href="http://vk.com/scffs" target="_blank">hit me up</a> - I'll help you</h6>
+                        <h6 style="font-size: 0.7rem"> <span text="bugs">If you found some bugs you can</span>
+                            <a href="https://vk.com/scffs" target="_blank"><span text="hit">hit me up</span></a> <span text="help">- I'll help you</span></h6>
                     </li>
                     <li class="profileProjectsMenu__item">
-                        Contributer of <a href="https://developer.mozilla.org/ru/" target = "_blank">MDN</a>
+                        <span text="сontributer">Contributer of</span>  <a href="https://developer.mozilla.org/ru/" target = "_blank">MDN</a>
                         [<a class="profile-link" href="https://github.com/scffs?org=mdn&year_list=1" target="_blank">Profile</a>]
                     </li>
                 </ul>
@@ -87,12 +87,12 @@
     </main>
     <section class="skills pt-5" id="skills">
         <div class="container">
-            <h2 class="skills-title title">Skills</h2>
-            <p class="sub-text skills-text-2">
-                I've been studying <span class="red">tools</span> / <span class="red">languages</span> such as
+            <h2 class="skills-title title" text="skills">Skills</h2>
+            <p class="sub-text skills-text-2" text="studying">
+                <span class="red">Tools</span> & <span class="red">Languages</span> I've been studying
             </p>
             <div class="skills-box">
-                <h3 class="skills-text-3 skills-title--sub">Web-Stack</h3>
+                <h3 class="skills-text-3 skills-title--sub" text="web">Web-Stack</h3>
                 <ul class="skills-list d-flex justify-content-center align-items-center flex-wrap gap-4">
                     <li class="skills-list__item">
                         <img src="assets/img/icons8-html-5.svg" class="skills-img" alt="HTML5" title="HTML5">
@@ -119,7 +119,7 @@
                         <img src="assets/img/node-js.png" class="skills-img" alt="Node JS" title="Node JS">
                     </li>
                 </ul>
-                <h3 class="skills-text-3 skills-title--sub">Programming languages</h3>
+                <h3 class="skills-text-3 skills-title--sub" text="programming">Programming languages</h3>
                 <ul class="skills-list d-flex justify-content-center align-items-center flex-wrap gap-4">
                     <li class="skills-list__item">
                         <img src="assets/img/icons8-c-sharp-logo.svg" class="skills-img" alt="C#" title="C#">
@@ -134,7 +134,7 @@
                         <img class="skills-img" src="assets/img/TS.svg" alt="TypeScript" title="TypeScript">
                     </li>
                 </ul>
-                <h3 class="skills-text-3 skills-title--sub">Tools</h3>
+                <h3 class="skills-text-3 skills-title--sub" text="tools">Tools</h3>
                 <ul class="skills-list d-flex justify-content-center align-items-center flex-wrap gap-4">
                     <li class="skills-list__item" title="GitHub">
                         <svg class="skills-img" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" >
@@ -153,11 +153,11 @@
                     </li>
                 </ul>
             </div>
-            <p class="skills-text-2 sub-text">In the near future I plan to learn
+            <p class="skills-text-2 sub-text" text="future">In the near future I plan to learn
                 <span class="red">tools</span> / <span class="red">languages</span> such as
             </p>
             <div class="skills-box">
-                <h3 class="skills-text-3 skills-title--sub">Web-Frameworks</h3>
+                <h3 class="skills-text-3 skills-title--sub" text="frameworks">Web-Frameworks</h3>
                 <ul class="skills-list d-flex justify-content-center align-items-center flex-wrap gap-4">
                     <li class="skills-list__item">
                         <img class="skills-img" src="assets/img/Vue.js_Logo_2.svg" alt="VUE JS" title="Vue js">
@@ -166,7 +166,7 @@
                         <img class="skills-img" src="assets/img/Angular_full_color_logo.svg" alt="Angular" title="Angular">
                     </li>
                 </ul>
-                <h3 class="skills-text-3 skills-title--sub">Libraries</h3>
+                <h3 class="skills-text-3 skills-title--sub" text="libraries">Libraries</h3>
                 <ul class="skills-list d-flex justify-content-center align-items-center flex-wrap gap-4">
                     <li class="skills-list__item">
                         <img class="skills-img" src="assets/img/React-icon.svg" alt="React" title="React">
@@ -175,7 +175,7 @@
                         <img src="assets/img/jquery-icon.svg" class="skills-img" alt="jQuery" title="jQuery">
                     </li>
                 </ul>
-                <h3 class="skills-text-3 skills-title--sub">Tools</h3>
+                <h3 class="skills-text-3 skills-title--sub" text="tools">Tools</h3>
                 <ul class="skills-list d-flex justify-content-center align-items-center flex-wrap gap-4">
                     <li class="skills-list__item">
                         <img src="assets/img/1c_bitrix_logo.svg" class="skills-img" alt="1C BITRIX" title="1C BITRIX">
@@ -189,7 +189,7 @@
     </section>
     <section id="about" class="pt-5">
         <h2 class="title">About me</h2>
-        <p class="sub-text skills-text-2">
+        <p class="sub-text skills-text-2" text="aboutInf">
             Here is some information <span class="red">about me</span> <br> <span class="red">For example</span> my certificates
         </p>
         <div class="container">
@@ -265,26 +265,10 @@
                 </li>
             </ul>
         </div>
-        <div class="footer-copyright gray">
+        <div class="footer-copyright gray" translate="no">
             <i>2022 &copy; by Scoffs</i>
         </div>
     </footer>
-    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="exampleModalLabel">Wassup</h1>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <h4 style="color: #969696">It's till empty here..</h4>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                </div>
-            </div>
-        </div>
-    </div>
 </div>
 </body>
 </html>

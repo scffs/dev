@@ -40,6 +40,60 @@ if(burgerMenu){
 }
 
 let popoverTriggerList = [].slice.call(document.querySelectorAll('[data-toggle="popover"]'));
-popoverTriggerList.map( function (popoverTiger){
+popoverTriggerList.map(function (popoverTiger){
    return new bootstrap.Popover(popoverTiger);
 });
+// translate
+const languageButton = document.querySelector('.btn-language');
+
+
+let rus = {
+    title: 'Будущий Веб-разработчик',
+    theme: 'Тема',
+    advantages: 'Достижения',
+    skills: 'Умения',
+    about: 'Обо мне',
+    member: 'Участник',
+    сontributer: 'Контрибьютер',
+    hit:'написать мне',
+    help:'- я помогу Вам',
+    bugs:'Если Вы нашли какие-то баги, то Вы можете',
+    studying: '<span class="red">Инструменты</span> & <span class="red">Языки</span>, которые я учу',
+    web: 'Веб-разработка',
+    programming: 'Языки программирования',
+    tools: 'Инструменты',
+    future: 'В ближайшем будущем я планирую изучить <span class="red">инструменты</span> / <span class="red">языки</span> такие как',
+    frameworks: 'Фреймворки',
+    libraries: 'Библиотеки',
+    aboutInf: 'Здесь некоторая информация <span class="red">обо мне</span> <br> <span class="red">Например,</span> мои сертификаты',
+};
+
+let eng = {
+    title: 'I\'m Web dev in the future',
+    theme: 'Theme',
+    advantages: 'Advantages',
+    skills: 'Skills',
+    about: 'About me',
+    member: 'Member of',
+    сontributer: 'Contributer',
+    hit:'hit me up',
+    help:'- I\'ll help you',
+    bugs:'If you found some bugs you can',
+    studying: '<span class="red">Tools</span> & <span class="red">Languages</span> I\'ve been studying',
+    web: 'Web-Stack',
+    programming: 'Programming languages',
+    tools: 'Tools',
+    future: 'In the near future I plan to learn <span class="red">tools</span> / <span class="red">languages</span> such as',
+    frameworks: 'Web-Frameworks',
+    libraries: 'Libraries',
+    aboutInf: 'Here is some information <span class="red">about me</span> <br> <span class="red">For example</span> my certificates',
+};
+
+
+document.querySelector('.btn-language').onclick = () => changeLanguage()
+function changeLanguage(){
+    const language = page.classList.toggle('eng') ? eng : rus;
+    document.querySelectorAll('[text]').forEach(el => {
+        el.innerHTML = language[el.getAttribute('text')];
+    })
+}
