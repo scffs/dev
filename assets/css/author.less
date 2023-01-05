@@ -6,10 +6,10 @@
 .profile-card {
   animation: @animation-ride;
   max-width: 400px;
-  &--name {
+  &__name {
     color: @primary-color;
   }
-  &--menu {
+  &__menu {
     font-family: var(--bs-body-font-family);
     padding: 5px 0;
     gap: 7px 5px;
@@ -20,7 +20,7 @@
   height: 350px;
   border-radius: 40px;
 }
-.card-menu__item {
+.profile-card__item {
   border-radius: 0.5rem;
   line-height: 1.3rem;
   border: 1px solid black;
@@ -59,7 +59,7 @@
     border-color: @color-ocean;
   }
 }
-.profileProjectsMenu {
+.achievments{
   box-shadow: @box-shadow;
   border-radius: 1rem;
   padding: 10px;
@@ -69,8 +69,10 @@
     font-size: 1.5rem;
   }
   .profile-link{
-    font-size: 0.9rem;
     color: #bb2d3b;
+    &:hover{
+      color: maroon;
+    }
   }
 }
 .login-img {

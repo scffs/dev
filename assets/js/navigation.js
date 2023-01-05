@@ -15,11 +15,11 @@ const menu = [
         text: 'about'
     }
 ]
-const menuItem = document.querySelector('.header-nav__menu')
+const menuItem = document.querySelector('.header__menu')
 menuItem.innerHTML = menu.map(
         item=>(
-            `<li class="header-nav__item">
-                <a class="header-link" href="${item.link}" text="${item.text}">${item.title}</a>
+            `<li class="header__item">
+                <a class="header__link" href="${item.link}" text="${item.text}">${item.title}</a>
             </li>`
         )
 )
