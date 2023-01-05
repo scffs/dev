@@ -190,12 +190,12 @@
 .skills-img {
   width: 144px;
 }
-.skills-title--sub {
+.skills__title-sub {
   color: #fe3f3f;
   text-align: center;
   line-height: 2;
 }
-.skills-box {
+.skills__box {
   margin: 0 auto 1rem;
   padding: 10px;
   border-radius: 2rem;
@@ -341,10 +341,10 @@
   .nav__menu {
     gap: 40px;
   }
-  .contacts-list {
+  .footer__list {
     gap: 20px !important;
   }
-  .list-item--link__img {
+  .footer__link-img {
     width: 30px !important;
     height: 30px !important;
   }
@@ -447,24 +447,23 @@
   gap: 15px 0;
   padding-bottom: 10px;
 }
-.footer-content {
+.footer__content {
   align-items: center;
   justify-content: center;
   gap: 0 20px;
   font-size: 10px;
 }
-.contacts-list {
+.footer__list {
   justify-content: center;
   gap: 40px;
   align-items: center;
-  flex-wrap: wrap;
 }
-.contacts-list__link-img {
+.footer__link-img {
   width: 46px;
   height: 46px;
   cursor: pointer;
 }
-.contacts-list__link-img:hover {
+.footer__link-img:hover {
   transform: scale(1.2);
 }
 .carousel {
